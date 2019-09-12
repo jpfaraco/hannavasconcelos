@@ -1,0 +1,21 @@
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="{{ site.baseurl }}/">
+        Home
+      </a>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-end">
+        <div class="navbar-item" id="emoji">
+          <script>
+            var emojis = [ "😎", "😊", "😄", "🙈", "🤗", "🖖" ];
+            var randomEmoji = emojis[Math.floor(Math.random()*emojis.length)];
+            document.getElementById('emoji').innerHTML = randomEmoji;
+          </script>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</nav>
