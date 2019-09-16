@@ -1,19 +1,22 @@
-body, html {
-  background-color: #F6F6F6;
+body,
+html {
+  background-color: #e37049;
+  overflow-y: hidden;
 }
 
-.my-head {
-  position: absolute;
-  right: 0;
-  width: 183px;
-  height: 183px;
-  bottom: -67px;
+.hero {
+  box-shadow: 0 0 0 10px inset #D6E2E4;
 }
 
-@media (max-width: 710px) {
-  .my-head {
-    width: 110px;
-    height: 110px;
-    bottom: -59px;
-  }
+a,
+p {
+  color: #D6E2E4;
+}
+
+a:hover {
+  color: #FFF;
+  box-shadow: 0 1px 0 #FFF;
+  text-shadow: 0px 1px 0 #e37049,
+    -1px 1px 0 #e37049,
+    1px 1px 0 #e37049;
 }
