@@ -22,17 +22,20 @@ p {
   color: #D6E2E4;
 }
 
-a {
-  border-radius: 4px;
-  padding-left: 4px;
-  padding-right: 4px;
-}
-
-a:focus,
 a:hover {
+  box-shadow: 0 1px 0 0 #868cac;
   color: #FFF;
   outline-style: none;
-  background-color: rgba(255, 255, 255, 0.2);
+}
+
+a:focus {
+  color: #6a7299;
+  outline-style: none;
+  background-color: rgb(214, 226, 228);
+  box-shadow: -4px 0px 0px 4px rgb(214, 226, 228),
+    4px 0px 0px 4px rgb(214, 226, 228);
+  display: inline-block;
+  border-radius: 4px;
 }
 
 .personal {
