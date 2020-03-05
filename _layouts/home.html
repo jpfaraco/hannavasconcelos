@@ -13,7 +13,7 @@
         <hr />
         <p class="professional h-card">
           <a href="https://goo.gl/maps/f1W8bQfQadKAhugj8" target="_blank" id="link-maps"
-            onclick="captureOutboundLink('Google Maps');">
+            onclick="ga('send', 'event', 'Outbound links', 'click', 'Google Maps');">
             <strong>Centro Médico Casa de Saúde São José</strong><br />
             <span class="h-adr">
               <span class="p-street-address">Largo do Ibam 1</span>, 2º andar, Humaitá<br />
@@ -26,20 +26,21 @@
         <p class="h-card">
           Consultas:
           <a href="https://wa.me/5521997587093?text=Olá,%20gostaria%20de%20marcar%20uma%20consulta%20com%20a%20dra.%20Hanna"
-            target="_blank" id="link-consultas" onclick="captureOutboundLink('Consultas');"><span class="icon"><i
+            target="_blank" id="link-consultas"
+            onclick="ga('send', 'event', 'Outbound links', 'click', 'Consultas');"><span class="icon"><i
                 class="fab fa-whatsapp"></i></span> <span class="p-tel">21 99758 7093</span></a>
         </p>
         <hr />
         <p class="personal h-card">
           <a href="mailto:contato@hannavasconcelos.com.br" class="u-email" id="link-email"
-            onclick="captureOutboundLink('Email');"><span class="icon"><i
+            onclick="ga('send', 'event', 'Outbound links', 'click', 'Email');"><span class="icon"><i
                 class="far fa-envelope"></i></span>contato@hannavasconcelos.com.br</a>
           <a href="https://instagram.com/dra.hannavasconcelos" target="_blank" id="link-instagram"
-            onclick="captureOutboundLink('Instagram');"><span class="icon"><i
+            onclick="ga('send', 'event', 'Outbound links', 'click', 'Instagram');"><span class="icon"><i
                 class="fab fa-instagram"></i></span>@dra.hannavasconcelos</a>
           <a href="https://wa.me/5521979277227" target="_blank" id="link-whatsapp"
-            onclick="captureOutboundLink('Whatsapp');"><span class="icon"><i class="fab fa-whatsapp"></i></span><span
-              class="p-tel">21 97927 7227</span></a>
+            onclick="ga('send', 'event', 'Outbound links', 'click', 'WhatsApp');"><span class="icon"><i
+                class="fab fa-whatsapp"></i></span><span class="p-tel">21 97927 7227</span></a>
         </p>
       </div>
     </div>
