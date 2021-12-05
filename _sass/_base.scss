@@ -1,32 +1,13 @@
 body,
 html {
-  background-color: #6a7299;
-  overflow-y : auto;
-}
-
-hr {
-  height: 1px;
-  opacity: 0.2;
-}
-
-.hero {
-  box-shadow: 0 0 0 10px inset #D6E2E4;
-}
-
-.hero-body {
-  padding: 3rem;
-}
-
-a,
-p,
-h1,h2,h3,h4,h5,h6 {
-  color: #D6E2E4;
+  background-color: #fff;
 }
 
 a:hover {
-  box-shadow: 0 1px 0 0 #868cac;
-  color: #FFF;
   outline-style: none;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: #6a7299;
 }
 
 a:focus {
@@ -39,7 +20,49 @@ a:focus {
   border-radius: 4px;
 }
 
-.personal, .h-adr {
+.container {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+
+.header {
+  background-color: #6a7299;
+  color: #d6e2e4;
+
+  a {
+    color: #d6e2e4;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+
+.main a,
+.main .icon {
+  color: #6a7299;
+}
+
+main a {
+  text-underline-offset: 3px;
+  text-decoration-color: #6a7299;
+}
+
+@media screen and (min-width: 769px) {
+  aside.column {
+    margin-top: -20em;
+  }
+}
+
+.personal,
+.h-adr {
   font-size: 0.8em;
   line-height: 1.618em;
   opacity: 0.8;
@@ -62,30 +85,20 @@ a:focus {
 }
 
 .logo {
-  background-image: url('/assets/images/logo.svg');
+  background-image: url("/assets/images/logo.svg");
   width: 100%;
   height: 0;
   padding-top: 50%;
 }
 
 .hospital {
-  border-left: 3px solid #6a7299;
-  padding-left: 0.6em;
+  margin-bottom: 2em;
 }
 
 .link-consultas {
   display: inline-block;
 }
 
-header {
-  margin-bottom: 3em;
-}
-
-.columns {
-  background-color: rgba(214,226,228,0.06);
-  border-radius: 0.5em;
-}
-
-.columns p:last-child {
-  margin-bottom: 0;
+.indent {
+  margin-left: 29px;
 }

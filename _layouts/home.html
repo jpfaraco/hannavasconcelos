@@ -1,90 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-{% include head.html %}
+  {% include head.html %}
 
-<body>
-  <section class="hero is-fullheight">
-    <div class="hero-body">
+  <body>
+    <section class="header">
       <div class="container">
-        <header>
-          <div class="logo-container">
-            <h1 class="text-hide logo">Hanna Vasconcelos</h1>
-            <h2 class="text-hide">Cirurgia geral & videolaparoscopia</h2>
-          </div>
-  
-          <ul class="personal h-card has-text-centered">
-            <li><a href="mailto:contato@hannavasconcelos.com.br" class="u-email" id="link-email"
-              onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Email'});"><span
-                class="icon"><i class="fas fa-envelope"></i></span>contato@hannavasconcelos.com.br</a></li>
-            <li><a href="https://instagram.com/dra.hannavasconcelos" target="_blank" id="link-instagram"
-              onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Instagram'});"><span
-                class="icon"><i class="fab fa-instagram"></i></span>@dra.hannavasconcelos</a></li>
-          </ul>
-        </header>
-
-        <main>
-          <div class="columns">
-            <div class="column">
-              <div class="hospital">
-                <p class="professional h-card">
-                  <a href="https://goo.gl/maps/WP158RSWGfEBn94HA" target="_blank" class="link-maps"
-                    onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Google Maps - CSSJ'});">
-                    <strong>Centro Médico Casa de Saúde São José</strong><br />
-                    <span class="h-adr">
-                      <span class="p-street-address">Largo do Ibam 1</span>, 2º andar, Humaitá<br />
-                      <span class="p-locality">Rio de Janeiro</span> – <span class="p-region">RJ</span> – <span class="p-postal-code">22271-070</span>
-                    </span>
-                  </a>
-                </p>
-                <p><a href="https://redesantacatarina.org.br/hospital/saojose-rio/SitePages/Paciente/planos-e-convenios.aspx" target="_blank"
-                  onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Consulta convênios - CSSJ'});">Consulte os convênios aqui</a></p>
-    
-                <p class="h-card">
-                  Agendamento:
-                  <a href="https://wa.me/5521997587093?text=Olá,%20gostaria%20de%20marcar%20uma%20consulta%20com%20a%20dra.%20Hanna%20Vasconcelos"
-                    target="_blank" class="link-consultas"
-                    onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Consultas - CSSJ'});gtag('event', 'conversion', {'send_to': 'AW-1035494901/_bnSCNPMuMkBEPXL4e0D'});"><span
-                      class="icon"><i class="fab fa-whatsapp"></i></span> <span class="p-tel">21 99758 7093</span></a>
-                </p>
-              </div>
+        <div class="columns">
+          <div class="column">
+            <div class="logo-container">
+              <h1 class="text-hide logo">Hanna Vasconcelos</h1>
+              <h2 class="text-hide">Cirurgia geral & videolaparoscopia</h2>
             </div>
-  
-            <div class="column">
-              <div class="hospital">
-                <p class="professional h-card">
-                  <a href="https://goo.gl/maps/vjXfhnFaQpdW1UCi6" target="_blank" class="link-maps"
-                    onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Google Maps - HSVP'});">
-                    <strong>Hospital São Vicente de Paulo</strong><br />
-                    <span class="h-adr">
-                      <span class="p-street-address">Rua Dr. Satamini, 333</span>, Tijuca<br />
-                      <span class="p-locality">Rio de Janeiro</span> – <span class="p-region">RJ</span> – <span class="p-postal-code">20270-233</span>
-                    </span>
-                  </a>
-                </p>
-                <p><a href="http://www.hsvp.org.br/o-hospital/convenios" target="_blank"
-                  onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Consulta convênios - HSVP'});">Consulte os convênios aqui</a></p>
-    
-                <p class="h-card">
-                  Agendamento:
-                  <span class="link-consultas">
-                    <a href="tel:2125632121"
-                      target="_blank" class="link-consultas"
-                      onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Consultas - HSVP1'});gtag('event', 'conversion', {'send_to': 'AW-1035494901/_bnSCNPMuMkBEPXL4e0D'});"><span
-                        class="icon"><i class="fas fa-phone"></i></span> <span class="p-tel">21 2563 2121</span></a>&nbsp;&nbsp;&nbsp;
-                    <a href="tel:2125631107"
-                      target="_blank" class="link-consultas"
-                      onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Consultas - HSVP2'});gtag('event', 'conversion', {'send_to': 'AW-1035494901/_bnSCNPMuMkBEPXL4e0D'});"><span
-                        class="icon"><i class="fas fa-phone"></i></span> <span class="p-tel">21 2563 1107</span></a>
-                  </span>
-                </p>
-              </div>
-            </div>
+            <ul class="personal h-card has-text-centered">
+              <li>CRM: 52104018-9</li>
+              <li>
+                <a
+                  href="mailto:contato@hannavasconcelos.com.br"
+                  class="u-email"
+                  id="link-email"
+                  onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Email'});"
+                  ><span class="icon"><i class="fas fa-envelope"></i></span
+                  >contato@hannavasconcelos.com.br</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://instagram.com/dra.hannavasconcelos"
+                  target="_blank"
+                  id="link-instagram"
+                  onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Instagram'});"
+                  ><span class="icon"><i class="fab fa-instagram"></i></span
+                  >@dra.hannavasconcelos</a
+                >
+              </li>
+            </ul>
           </div>
-        </main>
-        
+          <div class="column is-hidden-mobile"></div>
+        </div>
       </div>
-    </div>
-  </section>
-</body>
+    </section>
+    <section class="main">
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <h3>Atendimento</h3>
+            <div class="hospital">
+              <div class="professional h-card">
+                <span class="icon"><i class="fas fa-map-marker-alt"></i></span>
+                <a
+                  href="https://goo.gl/maps/WP158RSWGfEBn94HA"
+                  target="_blank"
+                  class="link-maps"
+                  onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Google Maps - CSSJ'});"
+                >
+                  <strong>Centro Médico Casa de Saúde São José</strong>
+                </a>
+                <p class="h-adr indent">
+                  <span class="p-street-address">Largo do Ibam 1</span>, 2º
+                  andar, Humaitá<br />
+                  <span class="p-locality">Rio de Janeiro</span> –
+                  <span class="p-region">RJ</span> –
+                  <span class="p-postal-code">22271-070</span>
+                </p>
+              </div>
+              <p class="indent">
+                <a
+                  href="https://redesantacatarina.org.br/hospital/saojose-rio/SitePages/Paciente/planos-e-convenios.aspx"
+                  target="_blank"
+                  onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Consulta convênios - CSSJ'});"
+                  >Consulte os convênios</a
+                >
+              </p>
 
+              <p class="h-card indent">
+                Agendamento:
+                <span class="icon"><i class="fab fa-whatsapp"></i></span>
+                <a
+                  href="https://wa.me/5521997587093?text=Olá,%20gostaria%20de%20marcar%20uma%20consulta%20com%20a%20dra.%20Hanna%20Vasconcelos"
+                  target="_blank"
+                  class="link-consultas"
+                  onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Consultas - CSSJ'});gtag('event', 'conversion', {'send_to': 'AW-1035494901/_bnSCNPMuMkBEPXL4e0D'});"
+                >
+                  <span class="p-tel">21 99758 7093</span></a
+                >
+              </p>
+            </div>
+
+            <div class="hospital">
+              <div class="professional h-card">
+                <span class="icon"><i class="fas fa-map-marker-alt"></i></span>
+                <a
+                  href="https://goo.gl/maps/vjXfhnFaQpdW1UCi6"
+                  target="_blank"
+                  class="link-maps"
+                  onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Google Maps - HSVP'});"
+                >
+                  <strong>Hospital São Vicente de Paulo</strong>
+                </a>
+                <p class="h-adr indent">
+                  <span class="p-street-address"> Rua Dr. Satamini, 333</span>,
+                  Tijuca<br />
+                  <span class="p-locality">Rio de Janeiro</span> –
+                  <span class="p-region">RJ</span> –
+                  <span class="p-postal-code">20270-233</span>
+                </p>
+              </div>
+              <p class="indent">
+                <a
+                  href="http://www.hsvp.org.br/o-hospital/convenios"
+                  target="_blank"
+                  onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Consulta convênios - HSVP'});"
+                  >Consulte os convênios</a
+                >
+              </p>
+
+              <p class="h-card indent">
+                Agendamento:
+                <span class="link-consultas">
+                  <span class="icon"><i class="fas fa-phone"></i></span>
+                  <a
+                    href="tel:2125632121"
+                    target="_blank"
+                    class="link-consultas"
+                    onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Consultas - HSVP1'});gtag('event', 'conversion', {'send_to': 'AW-1035494901/_bnSCNPMuMkBEPXL4e0D'});"
+                  >
+                    <span class="p-tel">21 2563 2121</span></a
+                  >&nbsp;&nbsp;&nbsp;
+                  <span class="icon"><i class="fas fa-phone"></i></span>
+                  <a
+                    href="tel:2125631107"
+                    target="_blank"
+                    class="link-consultas"
+                    onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Consultas - HSVP2'});gtag('event', 'conversion', {'send_to': 'AW-1035494901/_bnSCNPMuMkBEPXL4e0D'});"
+                  >
+                    <span class="p-tel">21 2563 1107</span></a
+                  >
+                </span>
+              </p>
+            </div>
+          </div>
+          <aside class="column">
+            <h3 class="is-hidden-tablet">Agendamento online</h3>
+            <a
+              id="zl-url"
+              class="zl-url"
+              href="https://www.doctoralia.com.br/hanna-vasconcelos/cirurgiao-geral/rio-de-janeiro"
+              rel="nofollow"
+              data-zlw-doctor="hanna-vasconcelos"
+              data-zlw-type="big_with_calendar"
+              data-zlw-opinion="false"
+              data-zlw-hide-branding="true"
+              >Hanna Vasconcelos - Doctoralia.com.br</a
+            >
+            <script>
+              !(function ($_x, _s, id) {
+                var js,
+                  fjs = $_x.getElementsByTagName(_s)[0];
+                if (!$_x.getElementById(id)) {
+                  js = $_x.createElement(_s);
+                  js.id = id;
+                  js.src = "//platform.docplanner.com/js/widget.js";
+                  fjs.parentNode.insertBefore(js, fjs);
+                }
+              })(document, "script", "zl-widget-s");
+            </script>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
