@@ -1,17 +1,17 @@
-body,
-html {
-  background-color: #fff;
+:root {
+  --color-primary: #6a7299;
+  --color-light: #d6e2e4;
 }
 
 a:hover {
   outline-style: none;
   text-decoration: underline;
   text-underline-offset: 3px;
-  text-decoration-color: #6a7299;
+  text-decoration-color: var(--color-primary);
 }
 
 a:focus {
-  color: #6a7299;
+  color: var(--color-primary);
   outline-style: none;
   background-color: rgb(214, 226, 228);
   box-shadow: -4px 0px 0px 4px rgb(214, 226, 228),
@@ -33,11 +33,11 @@ a:focus {
 }
 
 .header {
-  background-color: #6a7299;
-  color: #d6e2e4;
+  background-color: var(--color-primary);
+  color: var(--color-light);
 
   a {
-    color: #d6e2e4;
+    color: var(--color-light);
 
     &:hover {
       color: #fff;
@@ -47,12 +47,12 @@ a:focus {
 
 .main a,
 .main .icon {
-  color: #6a7299;
+  color: var(--color-primary);
 }
 
 main a {
   text-underline-offset: 3px;
-  text-decoration-color: #6a7299;
+  text-decoration-color: var(--color-primary);
 }
 
 @media screen and (min-width: 769px) {
@@ -65,7 +65,6 @@ main a {
 .h-adr {
   font-size: 0.8em;
   line-height: 1.618em;
-  opacity: 0.8;
 }
 
 .text-hide {
