@@ -63,6 +63,10 @@ a:focus {
   padding-bottom: 3rem;
 }
 
+.card {
+  border-radius: 0.25em;
+}
+
 @media screen and (max-width: 768px) {
   .container {
     padding-left: 1em;
@@ -84,7 +88,7 @@ a:focus {
 }
 
 main a,
-main .icon {
+#atendimento .icon {
   color: var(--color-primary);
 }
 
@@ -95,7 +99,8 @@ main a {
 
 @media screen and (min-width: 769px) {
   aside.column {
-    margin-top: -20em;
+    margin-top: -25em;
+    max-height: 700px;
   }
 }
 
@@ -109,7 +114,7 @@ main a {
   margin-bottom: 1em;
 }
 
-.cta a:hover {
+.button:hover {
   text-decoration: none;
 }
 
