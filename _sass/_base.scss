@@ -1,23 +1,61 @@
 :root {
-  --color-primary: #6a7299;
-  --color-light: #d6e2e4;
+  --color-primary-25: #EFF6F7;
+  --color-primary-50: #DEE9EE;
+  --color-primary-100: #C6D4DE;
+  --color-primary-200: #A7B6C9;
+  --color-primary-300: #8896B3;
+  --color-primary-400: #6B7299;
+  --color-primary-500: #4F517C;
+  --color-primary-600: #3D3B66;
+  --color-primary-700: #332D54;
+  --color-primary-800: #2B2246;
+  --color-primary-900: #261B3B;
+
+  --color-secondary-25: #FCF4FB;
+  --color-secondary-50: #FDE9FA;
+  --color-secondary-100: #FDD8F8;
+  --color-secondary-200: #F8BCF2;
+  --color-secondary-300: #F0A1EA;
+  --color-secondary-400: #E388DE;
+  --color-secondary-500: #CC72CB;
+  --color-secondary-600: #AC5CAE;
+  --color-secondary-700: #854789;
+  --color-secondary-800: #5A305F;
+  --color-secondary-900: #2F1A33;
+
+  --color-primary: var(--color-primary-400);
+  --color-light: var(--color-primary-50);
+  --color-bg-light: var(--color-primary-25);
+  --color-bg-medium: var(--color-primary-400);
+  --color-bg-dark: var(--color-primary-800);
 }
 
-a:hover {
+.is-justify-content-center {
+  justify-content: center;
+}
+
+body {
+  background-color: var(--color-bg-light);
+}
+
+a {
+  color: var(--color-primary);  
+}
+
+a:hover,
+a.navbar-item:hover {
   outline-style: none;
+  background-color: transparent;
   text-decoration: underline;
   text-underline-offset: 3px;
+  color: var(--color-primary);
   text-decoration-color: var(--color-primary);
 }
 
 a:focus {
-  color: var(--color-primary);
+  color: var(--color-light);
   outline-style: none;
-  background-color: rgb(214, 226, 228);
-  box-shadow: -4px 0px 0px 4px rgb(214, 226, 228),
-    4px 0px 0px 4px rgb(214, 226, 228);
-  display: inline-block;
-  border-radius: 4px;
+  background-color: var(--color-primary);
 }
 
 .container {
@@ -33,7 +71,7 @@ a:focus {
 }
 
 .header {
-  background-color: var(--color-primary);
+  background-color: var(--color-bg-medium);
   color: var(--color-light);
 
   a {
@@ -45,8 +83,8 @@ a:focus {
   }
 }
 
-.main a,
-.main .icon {
+main a,
+main .icon {
   color: var(--color-primary);
 }
 
@@ -65,6 +103,14 @@ main a {
 .h-adr {
   font-size: 0.8em;
   line-height: 1.618em;
+}
+
+.personal {
+  margin-bottom: 1em;
+}
+
+.cta a:hover {
+  text-decoration: none;
 }
 
 .text-hide {
@@ -100,4 +146,33 @@ main a {
 
 .indent {
   margin-left: 29px;
+}
+
+#especialidades {
+  background-color: var(--color-primary-50);
+}
+
+footer {
+  background-color: var(--color-bg-medium);
+
+  .social-icons a {
+    margin-left: 1em;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  a {
+    color: var(--color-light);
+
+    &:hover, &:visited {
+      color: #FFF;
+      text-decoration: none;
+
+      img {
+        filter: invert(0%) sepia(27%) saturate(221%) hue-rotate(278deg) brightness(107%) contrast(102%);
+      }
+    }
+  }
 }
