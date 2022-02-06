@@ -25,6 +25,9 @@
         <a class="navbar-item" href="#formacao">
           Formação
         </a>
+        <a class="navbar-item" href="#feed">
+          Feed
+        </a>
       </div>
     </nav>
     <header>
@@ -61,7 +64,7 @@
                 </li>
               </ul>
               <div class="cta has-text-centered">
-                <a class="button is-primary is-medium" href="https://wa.me/552140429599?text=Olá,%20gostaria%20de%20marcar%20uma%20consulta%20com%20a%20dra.%20Hanna%20Vasconcelos" target="_blank" rel="noreferrer"><span class="icon"><i class="fab fa-whatsapp"></i></span> <span>Agendar consulta via WhatsApp</span></a>
+                <a class="button is-primary is-medium" href="https://wa.me/552140429599?text=Olá,%20gostaria%20de%20marcar%20uma%20consulta%20com%20a%20dra.%20Hanna%20Vasconcelos" target="_blank" rel="noreferrer" onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'WhatsApp'});"><span class="icon"><i class="fab fa-whatsapp"></i></span> <span>Agendar consulta via WhatsApp</span></a>
               </div>
             </div>
             <div class="column is-hidden-mobile"></div>
@@ -188,6 +191,7 @@
                 data-zlw-type="big_with_calendar"
                 data-zlw-opinion="false"
                 data-zlw-hide-branding="true"
+                onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Doctoralia'});"
                 >Hanna Vasconcelos - Doctoralia.com.br</a
               >
               <script>
@@ -214,7 +218,7 @@
             </div>
             
             <div class="column has-text-right is-hidden-mobile">
-              <a href="https://www.doctoralia.com.br/hanna-vasconcelos/cirurgiao-geral/rio-de-janeiro#tab=profile-reviews" rel="noreferrer" target="_blank">Ver todos →</a>
+              <a href="https://www.doctoralia.com.br/hanna-vasconcelos/cirurgiao-geral/rio-de-janeiro#tab=profile-reviews" rel="noreferrer" target="_blank" onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Depoimentos Doctoralia'});">Ver todos →</a>
             </div>
 
           </div>
@@ -287,7 +291,7 @@
           </div>
           <div class="columns is-hidden-tablet">
             <div class="column">
-              <a href="https://www.doctoralia.com.br/hanna-vasconcelos/cirurgiao-geral/rio-de-janeiro#tab=profile-reviews" rel="noreferrer" target="_blank">Ver todos os depoimentos →</a>
+              <a href="https://www.doctoralia.com.br/hanna-vasconcelos/cirurgiao-geral/rio-de-janeiro#tab=profile-reviews" rel="noreferrer" target="_blank" onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Depoimentos Doctoralia'});">Ver todos os depoimentos →</a>
             </div>
           </div>
         </div>
@@ -340,7 +344,7 @@
 
             <div class="columns">
               <div class="column has-text-centered">
-                <a class="button is-primary is-medium" href="https://wa.me/552140429599?text=Olá,%20gostaria%20de%20marcar%20uma%20consulta%20com%20a%20dra.%20Hanna%20Vasconcelos" target="_blank" rel="noreferrer"><span class="icon"><i class="fab fa-whatsapp"></i></span> <span>Agendar consulta via WhatsApp</span></a>
+                <a class="button is-primary is-medium" href="https://wa.me/552140429599?text=Olá,%20gostaria%20de%20marcar%20uma%20consulta%20com%20a%20dra.%20Hanna%20Vasconcelos" target="_blank" rel="noreferrer" onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'WhatsApp'});"><span class="icon"><i class="fab fa-whatsapp"></i></span> <span>Agendar consulta via WhatsApp</span></a>
               </div>
             </div>
           </div>
@@ -377,9 +381,45 @@
                 <li>Fellowship em Cirurgia Hepatobiliar no Centro hepatobiliar Paul Brousse (Paris, França) 2017</li>
                 <li>Curso de Ultrassonografia Hepática Intraoperatória no Hospital Humanitas (Milão, Itália) 2017</li>
                 <li>Curso de Cirurgia Hepatobiliar no IRCAD Barretos, SP, 2018</li>
-                <li>Membro do Colégio Brasileiro de Cirurgia Hepatobiliopancreática – CB.IHPBA</li>
-                <li>Membro do Colégio Brasileiro de Cirurgiões – CBC</li>
+                <li>Membro do Colégio Brasileiro de Cirurgia Hepatobiliopancreática – CB.IHPBA</li>
+                <li>Membro do Colégio Brasileiro de Cirurgiões – CBC</li>
               </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="feed">
+        <div class="container content">
+
+          <div class="columns">
+            <div class="column">
+              <h3><span class="icon"><i class="fab fa-instagram"></i></span> Feed</h3>
+            </div>
+            
+            <div class="column has-text-right is-hidden-mobile">
+              <a href="https://instagram.com/dra.hannavasconcelos" rel="noreferrer" target="_blank" onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Instagram (Feed)'});">Instagram →</a>
+            </div>
+
+          </div>
+          <div class="columns">
+            <div class="column">
+              <!-- Place <div> tag where you want the feed to appear -->
+              <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
+              <!-- The Javascript can be moved to the end of the html page before the </body> tag -->
+              <script type="text/javascript">
+              /* curator-feed-default-feed-layout */
+                (function(){
+                var i,e,d=document,s="script";i=d.createElement("script");i.async=1;i.charset="UTF-8";
+                i.src="https://cdn.curator.io/published/68e4e319-8a2f-4ecf-be6a-d5d57713ba78.js";
+                e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+                })();
+              </script>
+            </div>
+          </div>
+
+          <div class="columns is-hidden-tablet">
+            <div class="column">
+              <a href="https://instagram.com/dra.hannavasconcelos" rel="noreferrer" target="_blank" onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Instagram (Feed)'});">Instagram →</a>
             </div>
           </div>
         </div>
@@ -389,13 +429,16 @@
       <div class="container">
         <div class="columns">
           <div class="column has-text-centered social-icons">
-            <a href="https://instagram.com/dra.hannavasconcelos" target="_blank" title="Instagram" rel="noreferrer">
+            <a href="https://instagram.com/dra.hannavasconcelos" target="_blank" title="Instagram" rel="noreferrer" onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Instagram (Footer)'});">
               <span class="icon"><i class="fab fa-instagram"></i></span>
             </a>
-            <a href="https://www.linkedin.com/in/hanna-vasconcelos-676404134/?originalSubdomain=br" target="_blank" title="LinkedIn" rel="noreferrer">
+            <a href="https://www.facebook.com/dra.hannavasconcelos" target="_blank" title="Facebook" rel="noreferrer" onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Facebook (Footer)'});">
+              <span class="icon"><i class="fab fa-facebook"></i></span>
+            </a>
+            <a href="https://www.linkedin.com/in/hanna-vasconcelos-676404134/?originalSubdomain=br" target="_blank" title="LinkedIn" rel="noreferrer" onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'LinkedIn (Footer)'});">
               <span class="icon"><i class="fab fa-linkedin-in"></i></span>
             </a>
-            <a href="https://www.doctoralia.com.br/hanna-vasconcelos/cirurgiao-geral/rio-de-janeiro" target="_blank" title="Doctoralia" rel="noreferrer">
+            <a href="https://www.doctoralia.com.br/hanna-vasconcelos/cirurgiao-geral/rio-de-janeiro" target="_blank" title="Doctoralia" rel="noreferrer" onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Doctoralia (Footer)'});">
               <span class="icon"><img src="/assets/images/doctoralia-icon.svg" alt="Doctoralia" style="height: 1em;"></span>
             </a>
           </div>
