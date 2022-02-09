@@ -114,8 +114,14 @@ main a {
   margin-bottom: 1em;
 }
 
-.button:hover {
-  text-decoration: none;
+.button {
+  &.is-medium {
+    border-radius: 8px;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 .text-hide {
