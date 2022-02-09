@@ -58,6 +58,10 @@ a:focus {
   background-color: var(--color-primary);
 }
 
+a.no-text-decoration:hover {
+  text-decoration: none;
+}
+
 .container {
   padding-top: 3rem;
   padding-bottom: 3rem;
