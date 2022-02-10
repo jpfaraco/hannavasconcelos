@@ -196,8 +196,29 @@ main a {
   color: var(--color-primary-200) !important;
 }
 
+#freechatpopup {
+  margin-right: 24px !important;
+  margin-bottom: 24px !important;
+}
+
 .freechat-popup-credit {
   display: none !important;
+}
+
+.freechat-icon {
+  padding: 14px !important;
+  margin-right: 0 !important;
+
+  svg {
+    width: 24px !important;
+    height: 24px !important;
+  }
+}
+
+@media (max-width: 720px) {
+  .freechat-bottom-cta {
+    display: none !important;
+  }
 }
 
 footer {
