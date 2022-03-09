@@ -172,6 +172,45 @@ main a {
   background-color: var(--color-primary-50);
 }
 
+#formacao ul {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+#formacao li {
+  list-style: none;
+  border-left: 3px solid var(--color-primary-100);
+  position: relative;
+  padding-left: 24px;
+  margin-left: 24px;
+  padding-bottom: 16px;
+  margin-top: 0;
+}
+
+#formacao li:before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 500px;
+  display: block;
+  background-color: #FFF;
+  left: -7.5px;
+  top: 7.5px;
+  border: 3px solid var(--color-primary-100);
+}
+
+#formacao li ul li {
+  border: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+#formacao li ul li:before {
+  background-color: transparent;
+  border: none;
+}
+
 // Curator.io
 
 .crt-post {
