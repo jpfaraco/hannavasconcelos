@@ -393,6 +393,10 @@ footer {
   display: none !important;
 }
 
+.freechat-bottom-cta {
+  width: 128px;
+}
+
 .freechat-icon {
   padding: 14px !important;
   margin-right: 0 !important;
@@ -444,10 +448,6 @@ footer {
     }
   }
 
-  .button.is-large {
-    font-size: 1.2rem;
-  }
-
   .subtitle {
     flex-direction: column;
     gap: 8px;
@@ -456,6 +456,11 @@ footer {
 
   #hero {
     background-image: none;
+
+    .cta {
+      font-size: 1.2rem;
+      width: 100%;
+    }
   }
 
   #sobre {
