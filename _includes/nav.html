@@ -1,21 +1,31 @@
-<nav class="navbar" role="navigation" aria-label="main navigation">
+<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
   <div class="container">
     <div class="navbar-brand">
-      <a class="navbar-item" href="{{ site.baseurl }}/">
-        Home
+      <a href="{{ site.baseurl }}/#hero"><h1 class="text-hide logo">Hanna Vasconcelos</h1></a>
+      <h2 class="text-hide">Cirurgia geral e videolaparoscopia</h2>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
       </a>
     </div>
-    <div class="navbar-menu">
-      <div class="navbar-end">
-        <div class="navbar-item" id="emoji">
-          <script>
-            var emojis = [ "😎", "😊", "😄", "🙈", "🤗", "🖖" ];
-            var randomEmoji = emojis[Math.floor(Math.random()*emojis.length)];
-            document.getElementById('emoji').innerHTML = randomEmoji;
-          </script>
+
+    <div id="navMenu" class="navbar-menu">
+      <div class="navbar-end" id="navMenu">
+        <div class="navbar-item" id="navbar-cta">
+          <div class="buttons">
+            <a class="cta button" href="https://wa.me/552140429599?text=Olá,%20gostaria%20de%20marcar%20uma%20consulta%20com%20a%20dra.%20Hanna%20Vasconcelos" target="_blank" rel="noreferrer" onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'WhatsApp'});gtag('event', 'conversion', {'send_to': 'AW-1035494901/EYlkCMj25ZkDEPXL4e0D'});">
+              <strong>Agendar consulta</strong>
+            </a>
+          </div>
         </div>
+        <a class="navbar-item" href="{{ site.baseurl }}/#atendimento"> Atendimento </a>
+        <a class="navbar-item" href="{{ site.baseurl }}/#especialidades"> Especialidades </a>
+        <a class="navbar-item" href="{{ site.baseurl }}/#sobre"> Sobre </a>
+        <!-- <a class="navbar-item" href="{{ site.baseurl }}/#artigos"> Artigos </a> -->
+        <a class="navbar-item" href="{{ site.baseurl }}/#feed"> Feed </a>
       </div>
     </div>
-
   </div>
 </nav>

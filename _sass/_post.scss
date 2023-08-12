@@ -1,4 +1,24 @@
-.post {
+#post {
+  .hero {
+    background-color: $color-bg-hero;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .subtitle {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+
+  .content {
+    font-size: 20px;
+
+    h2 {
+      margin-top: 4rem;
+    }
+  }
 
   ul {
     margin-bottom: 1em;
@@ -17,17 +37,17 @@
     background-color: #4a4a4a;
     padding: 1em;
     border-radius: 4px;
-    color: #EEE;
+    color: #eee;
   }
 
-  img+em {
-    font-size: .8em;
+  img + em {
+    font-size: 0.8em;
     text-align: center;
     margin-top: 0.5em;
     display: block;
   }
 
-  img, 
+  img,
   .embed {
     margin: 0 auto;
     display: block;
