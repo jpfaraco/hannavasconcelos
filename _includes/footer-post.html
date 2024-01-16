@@ -1,0 +1,74 @@
+<footer>
+  <div class="container">
+    <div class="columns">
+      <div class="column has-text-centered social-icons">
+        <a href="https://instagram.com/dra.hannavasconcelos" target="_blank" title="Instagram" rel="noreferrer" onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Instagram (Footer)'});">
+          <span class="icon"><i class="fab fa-instagram"></i></span>
+        </a>
+        <a href="https://www.facebook.com/dra.hannavasconcelos" target="_blank" title="Facebook" rel="noreferrer" onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Facebook (Footer)'});">
+          <span class="icon"><i class="fab fa-facebook"></i></span>
+        </a>
+        <a href="https://www.linkedin.com/in/hanna-vasconcelos-676404134/?originalSubdomain=br" target="_blank" title="LinkedIn" rel="noreferrer" onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'LinkedIn (Footer)'});">
+          <span class="icon"><i class="fab fa-linkedin-in"></i></span>
+        </a>
+        <a href="https://www.doctoralia.com.br/hanna-vasconcelos/cirurgiao-geral/rio-de-janeiro" target="_blank" title="Doctoralia" rel="noreferrer" onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Doctoralia (Footer)'});">
+          <span class="icon"><img src="/assets/images/doctoralia-icon.svg" alt="Doctoralia" style="height: 1em" /></span>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script type="text/javascript" src="https://popupsmart.com/freechat.js"></script>
+<script>
+  window.start.init({
+    title: "Olá! 👋️",
+    message: "Tudo bem? 😊️ Como posso te ajudar?",
+    color: "#6b7299",
+    position: "right",
+    placeholder: "Digite sua mensagem",
+    withText: "Enviar para",
+    viaWhatsapp: "ou mande sua mensagem direto pelo WhatsApp",
+    gty: "Acesse o",
+    awu: "e mande sua mensagem",
+    connect: "Conectar",
+    button: "Tire sua dúvida",
+    device: "everywhere",
+    logo: "https://d2r80wdbkwti6l.cloudfront.net/oe64bAugVR0rFACr8sg7zSZT0lGZjIIV.jpg",
+    person: "https://d2r80wdbkwti6l.cloudfront.net/QnR8Obw512mXPkHP5D10dxkwFf6ozfJY.jpg",
+    services: [
+      { name: "whatsapp", content: "+552140429599" },
+      { name: "instagram", content: "dra.hannavasconcelos" },
+    ],
+  });
+
+  document.addEventListener("DOMContentLoaded", () => {
+    // Get all "navbar-burger" elements
+    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll(".navbar-burger"), 0);
+
+    // Check if there are any navbar burgers
+    if ($navbarBurgers.length > 0) {
+      // Add a click event on each of them
+      $navbarBurgers.forEach((el) => {
+        el.addEventListener("click", () => {
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle("is-active");
+          $target.classList.toggle("is-active");
+        });
+      });
+    }
+  });
+
+  // Metricool script
+  function loadScript(a) {
+    var b = document.getElementsByTagName("head")[0],
+      c = document.createElement("script");
+    (c.type = "text/javascript"), (c.src = "https://tracker.metricool.com/resources/be.js"), (c.onreadystatechange = a), (c.onload = a), b.appendChild(c);
+  }
+  loadScript(function () {
+    beTracker.t({ hash: "b2d6ccba4c2ee608bace674a447e765b" });
+  });
+</script>
