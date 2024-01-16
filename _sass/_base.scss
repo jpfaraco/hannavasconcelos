@@ -1,5 +1,5 @@
 section {
-  padding: 4.5rem 0px;
+  padding: 2.5rem 0px;
 }
 
 .text-hide {
@@ -57,15 +57,16 @@ nav {
 }
 
 #hero {
+  padding: 4.5rem 0;
   background-color: $color-bg-hero;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("/assets/images/hero-image-2.png");
+  background-image: url("/assets/images/hero-image-3.png");
   background-repeat: no-repeat;
-  background-position: calc(50% + 550px) bottom;
-  background-size: auto 90%;
+  background-position: calc(50% + 570px) bottom;
+  background-size: auto 100%;
 
   h2 em {
     box-shadow: 0 -1.15em 0 inset #fff;
@@ -224,6 +225,7 @@ div.subtitle {
 }
 
 #depoimentos {
+  padding: 4.5rem 0;
   background-color: $color-primary-25;
 
   .testimonial {
@@ -254,6 +256,7 @@ div.subtitle {
 }
 
 #sobre {
+  padding: 4.5rem 0;
   .photo-about {
     margin-top: -32px;
   }
@@ -365,6 +368,10 @@ footer {
       padding-left: 0;
       padding-right: 0;
     }
+  }
+
+  #hero {
+    padding: 2.5rem 0;
   }
 
   #especialidades .collapsible h4 {
