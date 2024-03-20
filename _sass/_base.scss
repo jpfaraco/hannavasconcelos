@@ -67,14 +67,28 @@ nav {
   background-position: calc(50% + 570px) bottom;
   background-size: auto 100%;
 
-  h2 em {
+  h3 {
+    font-size: 3.6rem;
+    line-height: 110%;
+  }
+
+  h3 em {
     box-shadow: 0 -1.15em 0 inset #fff;
     padding: 0 8px;
     margin: 0 -8px;
   }
 
-  .personal {
+  h2 {
     margin-top: 3.5rem;
+    margin-bottom: 0.3rem;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: $color-primary-500;
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  }
+
+  .personal {
     color: $color-primary-500;
 
     strong {
@@ -120,6 +134,10 @@ div.subtitle {
   border-radius: 0.5rem;
   overflow: hidden;
 
+  .caption {
+    margin-bottom: 1rem;
+  }
+
   h5 {
     a {
       color: $color-primary-700;
@@ -159,13 +177,6 @@ div.subtitle {
     background-size: cover;
     position: relative;
     overflow: hidden;
-  }
-
-  .card-content {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    gap: 1rem;
   }
 }
 
