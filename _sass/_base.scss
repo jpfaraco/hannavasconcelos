@@ -67,6 +67,10 @@ nav {
   background-position: calc(50% + 570px) bottom;
   background-size: auto 100%;
 
+  .thumb {
+    width: 112px;
+  }
+
   h3 {
     font-size: 3.6rem;
     line-height: 110%;
@@ -398,6 +402,14 @@ footer {
 
   #hero {
     padding: 2.5rem 0;
+
+    h2 {
+      margin-top: 2.5rem;
+    }
+
+    h3 {
+      font-size: 2rem;
+    }
   }
 
   #especialidades .collapsible h4 {
