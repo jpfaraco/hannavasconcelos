@@ -13,20 +13,37 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-site:
-  title: Hanna Vasconcelos
+title: Hanna Vasconcelos
 email: contato@hannavasconcelos.com.br
 description: >- # this means to ignore newlines until "baseurl:"
   Cirurgia geral & videolaparoscopia
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hannavasconcelos.com.br" # the base hostname & protocol for your site, e.g. http://example.com
-permalink: pretty
+permalink: /:categories/:title/
 sass:
   style: compact
 
 social:
   - name: instagram
-    url: https://www.instagram.com/dra.hannavasconcelos
+    title: "Instagram"
+    url: "https://www.instagram.com/dra.hannavasconcelos"
+  - name: facebook
+    title: "Facebook"
+    url: "https://www.facebook.com/dra.hannavasconcelos"
+  - name: linkedin
+    title: "LinkedIn"
+    url: "https://www.linkedin.com/in/hanna-vasconcelos-676404134/?originalSubdomain=br"
+  - name: doctoralia
+    title: "Doctoralia"
+    url: "https://www.doctoralia.com.br/hanna-vasconcelos/cirurgiao-geral/rio-de-janeiro"
+
+collections:
+  workplaces:
+    output: true
+    permalink: /:collection/:name/
+  publications:
+    output: true
+    permalink: /:collection/:name/
 
 # Build settings
 markdown: kramdown

@@ -1,0 +1,38 @@
+<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation" id="nav">
+  <div class="container">
+    <div class="navbar-brand">
+      <div class="logo">
+        <a href="{{ site.baseurl }}/#nav">
+          <img src="/assets/images/nav-logo.svg"
+            alt="Hanna Vasconcelos – Cirurgia geral e videolaparoscopia, Rio de Janeiro e Niterói">
+        </a>
+      </div>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navMenu" class="navbar-menu">
+      <div class="navbar-end" id="navMenu">
+        <div class="navbar-item" id="navbar-cta">
+          <div class="buttons">
+            <a class="cta button"
+              href="https://wa.me/552140429599?text=Olá,%20gostaria%20de%20marcar%20uma%20consulta%20com%20a%20dra.%20Hanna%20Vasconcelos"
+              target="_blank" rel="noreferrer"
+              onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'WhatsApp'});gtag('event', 'conversion', {'send_to': 'AW-1035494901/EYlkCMj25ZkDEPXL4e0D'});">
+              <strong>Agendar consulta</strong>
+            </a>
+          </div>
+        </div>
+        <a class="navbar-item" href="{{ site.baseurl }}/#atendimento"> Atendimento </a>
+        <a class="navbar-item" href="{{ site.baseurl }}/#especialidades"> Especialidades </a>
+        <a class="navbar-item" href="{{ site.baseurl }}/#sobre"> Sobre </a>
+        <a class="navbar-item" href="{{ site.baseurl }}/#artigos"> Artigos </a>
+        <a class="navbar-item" href="{{ site.baseurl }}/#feed"> Feed </a>
+      </div>
+    </div>
+  </div>
+</nav>

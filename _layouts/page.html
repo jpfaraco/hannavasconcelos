@@ -11,7 +11,6 @@
         {% if page.subtitle %}
         <h2 class="subtitle">{{ page.subtitle }}</h2>
         {% endif %}
-        <p class="is-7 has-text-grey-light text-mono">{{ page.date | date: "%d/%m/%Y" }}</p>
       </div>
     </div>
   </section>
@@ -23,15 +22,6 @@
           <p class="content"><small>Tópicos:</small></p>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="section">
-    <div class="container">
-      {% if page.previous.url %}
-      <a class="is-pulled-left" href="{{page.previous.url | prepend:site.baseurl}}">← {{page.previous.title}}</a>
-      {% endif %} {% if page.next.url %}
-      <a class="is-pulled-right" href="{{page.next.url | prepend:site.baseurl}}">{{page.next.title}} →</a>
-      {% endif %}
     </div>
   </section>
   {% include footer-post.html %}

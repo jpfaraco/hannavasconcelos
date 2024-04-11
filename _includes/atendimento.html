@@ -1,130 +1,66 @@
-<section id="atendimento">
+<section id="atendimento" class="section">
   <div class="container">
     <div class="subtitle">
       <h3>Atendimento</h3>
     </div>
 
-    <div class="columns">
-      <div class="column">
+    <div class="columns is-multiline">
+      {% for workplace in site.workplaces %}
+      <div class="column is-6">
         <div class="card hospital" itemscope itemtype="https://schema.org/LocalBusiness">
-          <meta itemprop="name" content="Consultório Botafogo">
-          <link itemprop="image" href="/assets/images/map-botafogo.png">
-          <a href="https://maps.app.goo.gl/uAxB1BQyrk7aM7Ax7" target="_blank" class="link-maps" rel="noreferrer"
-            onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Google Maps - Livance'});">
-            <div class="map" style="background-image: url(/assets/images/map-botafogo.png)"></div>
+          <meta itemprop="name" content="{{ workplace.title }}">
+          <link itemprop="image" href="/assets/images/{{ workplace.image }}">
+          {% if workplace.links.map %}
+          <a href="{{ workplace.links.map }}" target="_blank" class="link-maps" rel="noreferrer"
+            onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Google Maps - {{ workplace.eventLabel }}'});">
+            {% endif %}
+            {% if workplace.image %}
+            <div class="map" style="background-image: url(/assets/images/{{ workplace.image }})"></div>
+            {% else %}
+            <div class="map"></div>
+            {% endif %}
+            {% if workplace.links.map %}
           </a>
+          {% endif %}
           <div class="card-content professional h-card" itemprop="address" itemscope
             itemtype="https://schema.org/PostalAddress">
-            <small class="caption"><span itemprop="addressLocality">Rio de Janeiro</span> – <span
-                itemprop="addressRegion">RJ</span></small>
+            <small class="caption"><span itemprop="addressLocality">{{ workplace.addressLocality }}</span>
+              {% if workplace.addressRegion %}
+              – <span itemprop="addressRegion">{{ workplace.addressRegion }}</span>
+              {% endif %}</small>
             <h5 itemprop="name">
-              <a href="https://maps.app.goo.gl/uAxB1BQyrk7aM7Ax7" target="_blank" class="link-maps" rel="noreferrer"
-                onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Google Maps - Livance'});">
-                Consultório Botafogo </a>
+              {% if workplace.links.map %}
+              <a href="{{ workplace.links.map }}" target="_blank" class="link-maps" rel="noreferrer"
+                onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Google Maps - {{ workplace.eventLabel }}'});">
+                {% endif %}
+                {{ workplace.title }}
+                {% if workplace.links.map %}
+              </a>
+              {% endif %}
             </h5>
             <p class="h-adr has-text-grey">
               <small>
-                <span class="p-street-address" itemprop="streetAddress"> Visc. de Ouro Preto, 5 - 5º Andar</span>
+                <span class="p-street-address" itemprop="streetAddress">{{ workplace.streetAddress }}</span>
               </small>
             </p>
           </div>
           <div class="card-footer">
-            <a class="card-footer-item" itemprop="url"
-              href="https://wa.me/552140429599?text=Olá,%20gostaria%20de%20marcar%20uma%20consulta%20com%20a%20dra.%20Hanna%20Vasconcelos%20em%20Botafogo."
-              target="_blank" rel="noreferrer"
-              onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'WhatsApp'});gtag('event', 'conversion', {'send_to': 'AW-1035494901/EYlkCMj25ZkDEPXL4e0D'});">Agendar
-              consulta</a>
-          </div>
-        </div>
-      </div>
-      <div class="column">
-        <div class="card hospital" itemscope itemtype="https://schema.org/LocalBusiness">
-          <meta itemprop="name" content="Niterói D'Or">
-          <link itemprop="image" href="/assets/images/map-niteroidor.png">
-          <a href="https://maps.app.goo.gl/GhN2dAjTxEpvpeWw7" target="_blank" class="link-maps" rel="noreferrer"
-            onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Google Maps - Niteroi Dor'});">
-            <div class="map" style="background-image: url(/assets/images/map-niteroidor.png)"></div>
-          </a>
-          <div class="card-content professional h-card" itemprop="address" itemscope
-            itemtype="https://schema.org/PostalAddress">
-            <small class="caption"><span itemprop="addressLocality">Niterói</span> – <span
-                itemprop="addressRegion">RJ</span></small>
-            <h5 itemprop="name">
-              <a href="https://maps.app.goo.gl/GhN2dAjTxEpvpeWw7" target="_blank" class="link-maps" rel="noreferrer"
-                onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Google Maps - Niteroi Dor'});">
-                Niterói D'Or </a>
-            </h5>
-            <p class="h-adr has-text-grey">
-              <small>
-                <span class="p-street-address" itemprop="streetAddress">Rua Mariz e Barros, 550, 8º andar</span>
-              </small>
-            </p>
-          </div>
-          <div class="card-footer">
-            <a class="card-footer-item" itemprop="url"
-              href="https://wa.me/552140429599?text=Olá,%20gostaria%20de%20marcar%20uma%20consulta%20com%20a%20dra.%20Hanna%20Vasconcelos%20no%20Niter%C3%B3i%20D%27Or."
-              target="_blank" rel="noreferrer"
-              onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'WhatsApp'});gtag('event', 'conversion', {'send_to': 'AW-1035494901/EYlkCMj25ZkDEPXL4e0D'});">Agendar
-              consulta</a>
-            <a class="card-footer-item" itemprop="url"
-              href="https://www.rededorsaoluiz.com.br/hospital/niteroidor/o-hospital/planos-e-convenios" target="_blank"
+            <a class="card-footer-item" itemprop="url" href="{{ workplace.links.schedule }}" target="_blank"
               rel="noreferrer"
-              onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Consulta convênios - Niteroi Dor'});">Ver
+              onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'WhatsApp'});gtag('event', 'conversion', {'send_to': 'AW-1035494901/EYlkCMj25ZkDEPXL4e0D'});">Agendar
+              consulta</a>
+            {% if workplace.links.plans %}
+            <a class="card-footer-item" itemprop="url" href="{{ workplace.links.plans }}" target="_blank"
+              rel="noreferrer"
+              onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Consulta convênios - {{ workplace.eventLabel }}'});">Ver
               convênios</a>
+            {% endif %}
           </div>
         </div>
       </div>
+      {% endfor %}
     </div>
-    <div class="columns">
-      <div class="column">
-        <div class="card hospital" itemscope itemtype="https://schema.org/LocalBusiness">
-          <meta itemprop="name" content="Consultório Icaraí">
-          <link itemprop="image" href="/assets/images/map-niteroi.png">
-          <a href="https://maps.app.goo.gl/8GigM3YPH6b24BcMA" target="_blank" class="link-maps" rel="noreferrer"
-            onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Google Maps - Consultorio Icarai'});">
-            <div class="map" style="background-image: url(/assets/images/map-niteroi.png)"></div>
-          </a>
-          <div class="card-content professional h-card" itemprop="address" itemscope
-            itemtype="https://schema.org/PostalAddress">
-            <small class="caption"><span itemprop="addressLocality">Niterói</span> – <span
-                itemprop="addressRegion">RJ</span></small>
-            <h5 itemprop="name">
-              <a href="https://maps.app.goo.gl/8GigM3YPH6b24BcMA" target="_blank" class="link-maps" rel="noreferrer"
-                onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Google Maps - Consultorio Icarai'});">
-                Consultório Icaraí</a>
-            </h5>
-            <p class="h-adr has-text-grey">
-              <small>
-                <span class="p-street-address" itemprop="streetAddress">Rua Ministro Otávio Kelly, 337, Sala
-                  801</span>
-              </small>
-            </p>
-          </div>
-          <div class="card-footer">
-            <a class="card-footer-item" itemprop="url"
-              href="https://wa.me/552140429599?text=Olá,%20gostaria%20de%20marcar%20uma%20consulta%20com%20a%20dra.%20Hanna%20Vasconcelos%20no%20Consult%C3%B3rio%20Icara%C3%AD."
-              target="_blank" rel="noreferrer"
-              onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'WhatsApp'});gtag('event', 'conversion', {'send_to': 'AW-1035494901/EYlkCMj25ZkDEPXL4e0D'});">Agendar
-              consulta</a>
-          </div>
-        </div>
-      </div>
-      <div class="column">
-        <div class="card hospital">
-          <div class="map"></div>
-          <div class="card-content professional h-card">
-            <small class="caption">Online</small>
-            <h5>Teleatendimento</h5>
-          </div>
-          <div class="card-footer">
-            <a class="card-footer-item" itemprop="url"
-              href="https://wa.me/552140429599?text=Olá,%20gostaria%20de%20marcar%20uma%20consulta%20com%20a%20dra.%20Hanna%20Vasconcelos%20via%20teleatendimento."
-              target="_blank" rel="noreferrer"
-              onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'WhatsApp'});gtag('event', 'conversion', {'send_to': 'AW-1035494901/EYlkCMj25ZkDEPXL4e0D'});">Agendar
-              consulta</a>
-          </div>
-        </div>
-      </div>
-    </div>
+
+
   </div>
 </section>

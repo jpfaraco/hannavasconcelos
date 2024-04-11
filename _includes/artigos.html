@@ -1,4 +1,4 @@
-<section id="artigos">
+<section id="artigos" class="section">
   <div class="container">
     <div class="subtitle">
       <h3>Artigos</h3>
@@ -88,13 +88,20 @@
       </li>
 
     </ul>
-    <!-- <h4>Blog</h4>
-    <ul class="myposts">
+    <!-- <div class="subtitle">
+      <h3>Blog</h3>
+    </div>
+    <ul class="publications content">
       {% for post in site.posts %}
+      {% if post.categories contains "blog" %}
       <li>
         <span class="postDate has-text-grey text-mono">{{ post.date | date: "%m/%Y" }} </span>
-        <a href="{{ post.url | prepend:site.baseurl }}" title="{{ post.title}}"> {{ post.title}}</a>
+        <div>
+          <a href="{{ post.url | prepend:site.baseurl }}" title="{{ post.title}}"> {{ post.title}}</a>
+          <p class="is-size-7 has-text-grey">{{ post.subtitle }}</p>
+        </div>
       </li>
+      {% endif %}
       {% endfor %}
     </ul> -->
   </div>

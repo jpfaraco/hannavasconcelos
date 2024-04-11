@@ -3,10 +3,12 @@ layout: post
 title: "Cirurgia robótica na cirurgia geral"
 subtitle: "Inovação e desafios"
 date: 2023-08-03 09:32:09 -0300
-categories: robótica
+categories: blog robotica
 ---
 
 A cirurgia robótica é uma das inovações mais fascinantes e promissoras no campo da cirurgia gastrointestinal nos últimos anos. Ela tem revolucionado a maneira como os procedimentos cirúrgicos são realizados, proporcionando benefícios impressionantes, como menor invasibilidade, menos complicações pós-operatórias e tempos de recuperação mais rápidos. Neste artigo, exploraremos os avanços mais recentes em cirurgia robótica, as técnicas atualmente utilizadas e seus benefícios em comparação com as abordagens tradicionais. Também abordaremos os desafios e as limitações enfrentadas por cirurgiões nesta área e compartilharemos exemplos de vida real e estudos de caso para ilustrar a eficácia desses avanços e técnicas.
+
+![imagem](/assets/images/hero-image-3.png)
 
 ## Avanços recentes em cirurgia robótica
 

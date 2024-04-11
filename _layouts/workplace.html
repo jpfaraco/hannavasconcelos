@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" class="has-navbar-fixed-top">
+{% include head.html %}
+
+<body id="page">
+  {% include nav-internal.html %}
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">{{ page.title }}</h1>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-half">
+          <div class="card hospital" itemscope itemtype="https://schema.org/LocalBusiness">
+            <meta itemprop="name" content="{{ page.title }}">
+            <link itemprop="image" href="/assets/images/{{ page.image }}">
+            {% if page.links.map %}
+            <a href="{{ page.links.map }}" target="_blank" class="link-maps" rel="noreferrer"
+              onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Google Maps - {{ page.eventLabel }}'});">
+              {% endif %}
+              {% if page.image %}
+              <div class="map" style="background-image: url(/assets/images/{{ page.image }})"></div>
+              {% else %}
+              <div class="map"></div>
+              {% endif %}
+              {% if page.links.map %}
+            </a>
+            {% endif %}
+            <div class="card-content professional h-card" itemprop="address" itemscope
+              itemtype="https://schema.org/PostalAddress">
+              <small class="caption"><span itemprop="addressLocality">{{ page.addressLocality }}</span>
+                {% if page.addressRegion %}
+                – <span itemprop="addressRegion">{{ page.addressRegion }}</span>
+                {% endif %}</small>
+              <h5 itemprop="name">
+                {% if page.links.map %}
+                <a href="{{ page.links.map }}" target="_blank" class="link-maps" rel="noreferrer"
+                  onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Google Maps - {{ page.eventLabel }}'});">
+                  {% endif %}
+                  {% if page.links.map %}
+                </a>
+                {% endif %}
+              </h5>
+              <p class="h-adr has-text-grey">
+                <small>
+                  <span class="p-street-address" itemprop="streetAddress">{{ page.streetAddress }}</span>
+                </small>
+              </p>
+            </div>
+            <div class="card-footer">
+              <a class="card-footer-item" itemprop="url" href="{{ page.links.schedule }}" target="_blank"
+                rel="noreferrer"
+                onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'WhatsApp'});gtag('event', 'conversion', {'send_to': 'AW-1035494901/EYlkCMj25ZkDEPXL4e0D'});">Agendar
+                consulta</a>
+              {% if page.links.plans %}
+              <a class="card-footer-item" itemprop="url" href="{{ page.links.plans }}" target="_blank" rel="noreferrer"
+                onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Consulta convênios - {{ page.eventLabel }}'});">Ver
+                convênios</a>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  {% include footer.html %}
+</body>
+
+</html>

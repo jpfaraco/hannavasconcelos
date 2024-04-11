@@ -3,7 +3,7 @@ layout: post
 title: "Medo de cirurgia"
 subtitle: "Desmistificando o processo cirúrgico: Uma jornada passo-a-passo"
 date: 2023-08-12 09:27:09 -0300
-categories: cirurgia
+categories: blog cirurgia
 ---
 
 É normal sentir ansiedade e medo diante da possibilidade de ser submetido a um procedimento cirúrgico e alguns pacientes adiam a cirurgia por isso. O medo é comum quando não temos as informações necessárias para nos sentirmos seguros – medo da anestesia, medo de sentir dor no pós operatório, insegurança em relação a recuperação após a cirurgia. Antes da consulta anote todas as suas dúvidas e anseios, mesmo que pareçam dúvidas triviais!

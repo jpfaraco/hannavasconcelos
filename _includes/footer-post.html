@@ -1,18 +1,61 @@
-<footer>
+<footer class="section">
   <div class="container">
+    <div class="box">
+      <div class="columns">
+        <div class="column is-3">
+          <figure class="image is-128x128">
+            <img src="/assets/images/photo-about-2.png" alt="Dra. Hanna Vasconcelos">
+          </figure>
+
+        </div>
+        <div class="column content">
+          <h2>Dra. Hanna Vasconcelos é especialista em cirurgia geral e videolaparoscopia,
+            atendendo no Rio de Janeiro e Niterói</h2>
+          <p>Graduada em Ciências Médicas pela Escola de Medicina e Cirurgia – UNIRIO. Fez residência
+            médica em Cirurgia
+            Geral e Cirurgia Videolaparoscópica pelo Hospital Federal de Ipanema e fellowship em Cirurgia Hepatobiliar
+            no Centro hepatobiliar Paul Brousse (Paris, França).</p>
+          <a class="cta button"
+            href="https://wa.me/552140429599?text=Olá,%20gostaria%20de%20marcar%20uma%20consulta%20com%20a%20dra.%20Hanna%20Vasconcelos"
+            target="_blank" rel="noreferrer"
+            onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'WhatsApp'});gtag('event', 'conversion', {'send_to': 'AW-1035494901/EYlkCMj25ZkDEPXL4e0D'});">
+            <strong>Agendar consulta por WhatsApp</strong>
+          </a>
+          <hr>
+          <p><strong>Atendimento</strong></p>
+          <div class="columns">
+            {% for workplace in site.workplaces %}
+            {% if workplace.streetAddress %}
+            <div class="column">
+              {{ workplace.title }}<br />
+              <small class="has-text-grey">{{ workplace.streetAddress }}</small>
+            </div>
+            {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="columns">
       <div class="column has-text-centered social-icons">
-        <a href="https://instagram.com/dra.hannavasconcelos" target="_blank" title="Instagram" rel="noreferrer" onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Instagram (Footer)'});">
+        <a href="https://instagram.com/dra.hannavasconcelos" target="_blank" title="Instagram" rel="noreferrer"
+          onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Instagram (Footer)'});">
           <span class="icon"><i class="fab fa-instagram"></i></span>
         </a>
-        <a href="https://www.facebook.com/dra.hannavasconcelos" target="_blank" title="Facebook" rel="noreferrer" onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Facebook (Footer)'});">
+        <a href="https://www.facebook.com/dra.hannavasconcelos" target="_blank" title="Facebook" rel="noreferrer"
+          onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Facebook (Footer)'});">
           <span class="icon"><i class="fab fa-facebook"></i></span>
         </a>
-        <a href="https://www.linkedin.com/in/hanna-vasconcelos-676404134/?originalSubdomain=br" target="_blank" title="LinkedIn" rel="noreferrer" onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'LinkedIn (Footer)'});">
+        <a href="https://www.linkedin.com/in/hanna-vasconcelos-676404134/?originalSubdomain=br" target="_blank"
+          title="LinkedIn" rel="noreferrer"
+          onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'LinkedIn (Footer)'});">
           <span class="icon"><i class="fab fa-linkedin-in"></i></span>
         </a>
-        <a href="https://www.doctoralia.com.br/hanna-vasconcelos/cirurgiao-geral/rio-de-janeiro" target="_blank" title="Doctoralia" rel="noreferrer" onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Doctoralia (Footer)'});">
-          <span class="icon"><img src="/assets/images/doctoralia-icon.svg" alt="Doctoralia" style="height: 1em" /></span>
+        <a href="https://www.doctoralia.com.br/hanna-vasconcelos/cirurgiao-geral/rio-de-janeiro" target="_blank"
+          title="Doctoralia" rel="noreferrer"
+          onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Doctoralia (Footer)'});">
+          <span class="icon"><img src="/assets/images/doctoralia-icon.svg" alt="Doctoralia"
+              style="height: 1em" /></span>
         </a>
       </div>
     </div>
@@ -41,7 +84,10 @@
     ],
   });
 
+
+
   document.addEventListener("DOMContentLoaded", () => {
+
     // Get all "navbar-burger" elements
     const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll(".navbar-burger"), 0);
 
@@ -60,6 +106,127 @@
         });
       });
     }
+
+    // Function to create a slug from a string
+    function createSlug(text) {
+      return text.toString().toLowerCase()
+        .replace(/\s+/g, '-')           // Replace spaces with -
+        .replace(/[^\w\-]+/g, '')       // Remove all non-word chars
+        .replace(/\-\-+/g, '-')         // Replace multiple - with single -
+        .replace(/^-+/, '')             // Trim - from start of text
+        .replace(/-+$/, '');            // Trim - from end of text
+    }
+
+    // Function to add anchors to headers
+    function addAnchorsToSelector(selector) {
+      document.querySelectorAll(selector).forEach(function (header, index) {
+        const slug = createSlug(header.innerText) || `heading-${index}`;
+        header.id = slug; // Add id attribute to header
+      });
+    }
+
+    // Function to build the TOC and add class based on header level
+    function buildTOC(headersSelector, tocSelector) {
+      const headers = document.querySelectorAll(headersSelector);
+      if (headers.length === 0) return; // Exit if no headers found
+
+      const toc = document.querySelector(tocSelector);
+      if (!toc) return; // Exit if TOC container not found
+
+      const ul = document.createElement('ul');
+      headers.forEach(function (header) {
+        const li = document.createElement('li');
+        li.classList.add(`toc-${header.tagName.toLowerCase()}`); // Add class based on header tag name
+        const a = document.createElement('a');
+        a.href = `#${header.id}`;
+        a.textContent = header.textContent;
+        li.appendChild(a);
+        ul.appendChild(li);
+      });
+      toc.appendChild(ul);
+    }
+
+    // Function to update TOC active state based on scroll
+    function updateActiveTOCItem(headersSelector, tocSelector) {
+      const headers = Array.from(document.querySelectorAll(headersSelector));
+      let activeLink = null;
+
+      function getHeaderOffset(header) {
+        return header.getBoundingClientRect().top + window.scrollY;
+      }
+
+      function findActiveHeader() {
+        const scrollPosition = window.scrollY + 100; // Offset to account for fixed elements like a header
+        const windowHeight = window.innerHeight;
+        let closestHeaderBelowTop = null;
+        let closestHeaderAboveTop = null;
+
+        // Determine the closest header above and below the top of the viewport
+        headers.forEach(header => {
+          const headerTop = getHeaderOffset(header);
+          const headerBottom = headerTop + header.offsetHeight;
+          if (headerTop < scrollPosition) {
+            closestHeaderAboveTop = header;
+          } else if (!closestHeaderBelowTop && headerTop > scrollPosition) {
+            closestHeaderBelowTop = header;
+          }
+        });
+
+        // Determine which header should be marked as active
+        let currentActiveHeader = closestHeaderAboveTop;
+        if (closestHeaderAboveTop && closestHeaderBelowTop) {
+          const aboveBottom = getHeaderOffset(closestHeaderAboveTop) + closestHeaderAboveTop.offsetHeight;
+          // Check if we're closer to the next section
+          if (scrollPosition > aboveBottom + (getHeaderOffset(closestHeaderBelowTop) - aboveBottom) / 2) {
+            currentActiveHeader = closestHeaderBelowTop;
+          }
+        }
+
+        // Update the active class on the TOC link
+        if (currentActiveHeader) {
+          if (!activeLink || activeLink.getAttribute('href') !== `#${currentActiveHeader.id}`) {
+            if (activeLink) {
+              activeLink.classList.remove('active');
+            }
+            activeLink = document.querySelector(`${tocSelector} a[href="#${currentActiveHeader.id}"]`);
+            if (activeLink) {
+              activeLink.classList.add('active');
+            }
+          }
+        }
+      }
+
+      // Listen to scroll events and find the active header
+      window.addEventListener('scroll', findActiveHeader);
+      // Initialize on load to set the initial active TOC item
+      findActiveHeader();
+    }
+
+    addAnchorsToSelector('.main h2, .main h3, .main h4');
+    buildTOC('.main h2, .main h3, .main h4', '#toc');
+    updateActiveTOCItem('.main h2, .main h3, .main h4', '#toc');
+
+    const navbarHeight = 100; // Adjust based on your navbar's actual height
+
+    // Function to smoothly scroll to an element with offset for the navbar
+    function scrollToElementWithOffset(event) {
+      event.preventDefault(); // Prevent default anchor behavior
+      const targetId = event.currentTarget.getAttribute('href').substring(1); // Get the target element's id
+      const targetElement = document.getElementById(targetId);
+
+      if (targetElement) {
+        const targetPosition = targetElement.getBoundingClientRect().top + window.scrollY - navbarHeight;
+        window.scrollTo({
+          top: targetPosition,
+          behavior: 'smooth' // Smoothly scroll to the target position
+        });
+      }
+    }
+
+    // Add click event listeners to all TOC links
+    document.querySelectorAll('#toc a').forEach(link => {
+      link.addEventListener('click', scrollToElementWithOffset);
+    });
   });
 
   // Metricool script
@@ -71,4 +238,5 @@
   loadScript(function () {
     beTracker.t({ hash: "b2d6ccba4c2ee608bace674a447e765b" });
   });
+
 </script>

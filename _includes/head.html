@@ -17,7 +17,11 @@
   <link rel="icon" type="image/png" href="{{ '/assets/favicon-32x32.png' | absolute_url }}" sizes="32x32" />
   <link rel="icon" type="image/png" href="{{ '/assets/favicon-16x16.png' | absolute_url }}" sizes="16x16" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
-  <title>{{ page.title }}</title>
+  <title>{% if page.title != site.title %}
+    {{ page.title }} | {{ site.title }}
+    {% else %}
+    {{ site.title }}
+    {% endif %}</title>
 
   <!-- Global Site Tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126340732-2"></script>

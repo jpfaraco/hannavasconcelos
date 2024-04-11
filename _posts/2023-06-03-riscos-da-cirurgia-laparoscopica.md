@@ -2,7 +2,7 @@
 layout: post
 title: "Riscos da cirurgia laparoscópica"
 date: 2023-06-03 09:27:09 -0300
-categories: laparoscopia
+categories: blog laparoscopia
 ---
 
 A cirurgia laparoscópica é um tipo de cirurgia minimamente invasiva que utiliza uma câmera de vídeo e instrumentos especiais para operar através de pequenas incisões e tubos telescópicos colocados no corpo. Como a cirurgia laparoscópica é minimamente invasiva, ela reduz certos riscos e complicações associadas à cirurgia aberta tradicional. No entanto, tem seus próprios riscos e complicações que os novos pacientes precisam estar cientes. Este artigo discute os riscos da cirurgia laparoscópica.
