@@ -3,6 +3,7 @@ layout: post
 title: "Medo de cirurgia"
 subtitle: "Desmistificando o processo cirúrgico: Uma jornada passo-a-passo"
 date: 2023-08-12 09:27:09 -0300
+sitemap: false
 categories: blog cirurgia
 ---
 

@@ -37,3 +37,5 @@ gem "kramdown", ">= 2.3.0"
 gem "webrick", "~> 1.7"
 
 gem 'liquid', '~> 4.0', '>= 4.0.4'
+
+gem 'jekyll-sitemap'

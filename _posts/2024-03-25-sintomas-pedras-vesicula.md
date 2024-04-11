@@ -3,6 +3,7 @@ layout: post
 title: "Sintomas de pedras na vesícula"
 subtitle: "Como identificar os sinais e evitar cirurgias de emergência"
 date: 2024-03-25 09:32:09 -0300
+sitemap: false
 categories: blog vesicula
 ---
 
@@ -26,7 +27,6 @@ Os sintomas iniciais podem variar, mas geralmente incluem:
 - Inchaço abdominal e gases.
 
 Em alguns casos, os cálculos biliares podem ser "silenciosos", não apresentando sintomas até que ocorra uma complicação. Por isso, é importante estar atento às mudanças no corpo e consultar um médico se você suspeitar que algo não está certo.
-
 
 <div class="box">
 <p><strong>💡️ Dica: Mantenha um diário de eventos e sintomas</strong></p>
