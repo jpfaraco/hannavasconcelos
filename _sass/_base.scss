@@ -86,13 +86,20 @@ nav {
   }
 
   h2 {
+    max-width: 32rem;
     margin-top: 3.5rem;
-    margin-bottom: 0.3rem;
+    margin-bottom: 1.5rem;
     font-size: 1rem;
     font-weight: 700;
     line-height: 1.5;
     color: $color-primary-500;
+    text-shadow: 0 0 2px $color-bg-hero, 0 0 6px $color-bg-hero;
     font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+    span {
+      display: block;
+      margin-top: 1rem;
+    }
   }
 
   .personal {
@@ -372,7 +379,8 @@ footer {
 }
 
 .whatsapp-button:hover,
-.whatsapp-button:focus {
+.whatsapp-button:focus,
+.whatsapp-button:focus-visible {
   background-color: #107d71;
   color: #fff;
 }
