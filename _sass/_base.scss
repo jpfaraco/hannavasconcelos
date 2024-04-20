@@ -351,30 +351,29 @@ footer {
   padding: 0 16px !important;
 }
 
-// Popupsmart
+.whatsapp-button {
+  position: fixed;
+  background-color: #128c7e;
+  color: #fff;
+  border: none;
+  bottom: 24px;
+  right: 24px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  padding: 0 !important;
+  z-index: 1000;
 
-#freechatpopup {
-  margin-right: 24px !important;
-  margin-bottom: 24px !important;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.06), 0px 2.9px 3px -0.4px rgba(0, 0, 0, 0.06), 0px 5.1px 5.3px -0.9px rgba(0, 0, 0, 0.05), 0px 8.4px 8.8px -1.3px rgba(0, 0, 0, 0.05), 0px 13.7px 14.3px -1.7px rgba(0, 0, 0, 0.05), 0px 21.8px 22.7px -2.2px rgba(0, 0, 0, 0.05), -0.1px 33.6px 35px -2.6px rgba(0, 0, 0, 0.04), -0.1px 50px 52.1px -3px rgba(0, 0, 0, 0.04);
 }
 
-.freechat-popup-credit {
-  display: none !important;
-}
-
-.freechat-bottom-cta {
-  width: 128px;
-}
-
-.freechat-icon {
-  padding: 14px !important;
-  margin-right: 0 !important;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.05) !important;
-
-  svg {
-    width: 24px !important;
-    height: 24px !important;
-  }
+.whatsapp-button:hover {
+  background-color: #107d71;
+  color: #fff;
 }
 
 @media screen and (max-width: 1088px) {
@@ -407,6 +406,13 @@ footer {
     h3 {
       font-size: 2rem;
     }
+
+    background-image: none;
+
+    .cta {
+      font-size: 1.2rem;
+      width: 100%;
+    }
   }
 
   #especialidades .collapsible h4 {
@@ -429,22 +435,19 @@ footer {
     align-items: flex-start;
   }
 
-  #hero {
-    background-image: none;
-
-    .cta {
-      font-size: 1.2rem;
-      width: 100%;
-    }
-  }
-
   #sobre {
     .columns.sobre {
       display: flex;
       flex-direction: column-reverse;
     }
   }
+
   .photo-about {
     max-width: 200px;
+  }
+
+  .whatsapp-button {
+    width: 44px;
+    height: 44px;
   }
 }
