@@ -88,9 +88,9 @@ nav {
   h2 {
     max-width: 32rem;
     margin-top: 3.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.3rem;
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 1.5;
     color: $color-primary-500;
     text-shadow: 0 0 2px $color-bg-hero, 0 0 6px $color-bg-hero;
@@ -98,15 +98,16 @@ nav {
 
     span {
       display: block;
+      font-weight: 700;
       margin-top: 1rem;
     }
   }
 
   .personal {
-    color: $color-primary-500;
+    color: $color-primary;
 
     strong {
-      color: $color-primary-500;
+      color: $color-primary;
     }
 
     li {
