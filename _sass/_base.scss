@@ -70,8 +70,8 @@ nav {
     width: 112px;
   }
 
-  h2 {
-    font-size: 3.6rem;
+  h1 {
+    font-size: 3.3rem;
     line-height: 110%;
     max-width: 511px;
 
@@ -82,7 +82,7 @@ nav {
     }
   }
 
-  h3 {
+  h2 {
     max-width: 32rem;
     margin-top: 1.5rem;
     margin-bottom: 1.3rem;
@@ -253,6 +253,74 @@ div.subtitle {
 #depoimentos {
   background-color: $color-primary-25;
 
+  .testimonials-masonry {
+    column-count: 2;
+    column-gap: 1.5rem;
+    width: 100%;
+  }
+
+  .testimonial-item {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  .card {
+    break-inside: avoid;
+    margin: 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: white;
+
+    .card-content {
+      padding: 1.5rem;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .testimonials-masonry {
+      column-count: 1;
+    }
+  }
+
+  .media-left {
+    margin-right: 1rem;
+
+    .image {
+      img {
+        object-fit: cover;
+      }
+    }
+  }
+
+  .stars {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+
+    .icon {
+      font-size: 0.75rem;
+      width: 1rem;
+      height: 1rem;
+      margin-right: 2px;
+      color: #ffd700;
+    }
+  }
+
+  .media-content {
+    .title {
+      margin-bottom: 0.25rem;
+      color: $color-primary-700;
+    }
+  }
+
+  .content {
+    margin-top: 1rem;
+    color: $color-primary-600;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
   .testimonial {
     display: flex;
     align-items: flex-start;
@@ -391,11 +459,11 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  h2 {
+  h1 {
     font-size: 2.5rem;
   }
 
-  h3 {
+  h2 {
     font-size: 2rem;
   }
 
@@ -410,11 +478,11 @@ footer {
   }
 
   #hero {
-    h2 {
+    h1 {
       font-size: 2rem;
     }
 
-    h3 {
+    h2 {
       margin-top: 1.5rem;
     }
 
