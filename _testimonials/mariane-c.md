@@ -4,7 +4,7 @@ name: "Mariane C."
 avatar: "mariane-c.png"
 stars: 5
 procedure: "Vesicula"
-image: "https://lh3.googleusercontent.com/geougc-cs/AIHozJKpiYbVveISW_LUoCd-CNnop-BbpnW7dlU2CMgMgStQ7Ml4sURK7ui8AIDhN9BkfBzQUgedqwJU7bvfq_JjGLkT7aTQnd9EG-ciRnOppZnZDaLMfaZ3TLXA0FRaPHw1oK_M0ZFL=w1200-h900-p"
+image: "mariane-c-photo.jpg"
 sitemap: false
 ---
 
