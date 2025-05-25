@@ -459,6 +459,26 @@ footer {
   color: #fff;
 }
 
+sup a.footnote {
+  color: $color-primary-700;
+  background-color: $color-primary-25;
+  padding: 0 3px;
+  border-radius: 2px;
+  margin: 0 2px;
+
+  &:hover {
+    background-color: $color-primary-50;
+  }
+}
+
+.footnotes {
+  font-size: 0.85rem;
+
+  ol {
+    margin-left: 1rem;
+  }
+}
+
 @media screen and (max-width: 1088px) {
 }
 

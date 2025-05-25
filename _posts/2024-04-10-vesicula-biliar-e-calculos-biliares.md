@@ -29,7 +29,7 @@ Existem alguns fatores que podem predispor ao desenvolvimento de cálculos na ve
 - Diabetes
 - Rápida perda de peso (como por exemplo em pacientes submetidos à cirurgia bariátrica ou pacientes em uso de medicamentos para tratamento da obesidade, como Ozempic), dentre outros fatores de risco.
 
-Cálculos biliares acometem aproximadamente 15% da população adulta mundial e a incidência de cálculos biliares em pacientes submetidos a cirurgia bariátrica é de 53%.
+Cálculos biliares acometem aproximadamente 15% da população adulta mundial e a incidência de cálculos biliares em pacientes submetidos a cirurgia bariátrica é de 53% [^stinton-2012][^bariatric-2022].
 
 ## Sintomas dos cálculos biliares
 
@@ -67,11 +67,13 @@ Quem desenvolve cálculos biliares pode experimentar uma variedade de consequên
 
 ## Tenho que operar sempre?
 
-Nem todos os casos de cálculos biliares exigem tratamento cirúrgico imediato. A decisão pelo tratamento cirúrgico vai depender de alguns fatores como o tamanho dos cálculos, a presença de sintomas e condições clínicas do paciente. Quando os cálculos geram sintomas (conhecido como cólica biliar), postergar a cirurgia pode desencadear complicações graves.
+Nem todos os casos de cálculos biliares exigem tratamento cirúrgico imediato. A decisão pelo tratamento cirúrgico vai depender de alguns fatores como o tamanho dos cálculos, a presença de sintomas e condições clínicas do paciente. Quando os cálculos geram sintomas (conhecido como cólica biliar), postergar a cirurgia **eleva a chance de complicações** —
+entre 17 % e 20 % podem ter novo episódio de colecistite, coledocolitíase ou
+pancreatite antes da operação tardia[^vanbaal-2012].
 
 ## Descobri que tenho cálculos na vesícula, mas não tenho sintomas. Tenho que operar?
 
-A decisão de tratar casos assintomáticos de cálculos na vesícula depende de vários fatores, incluindo o tamanho e o número dos cálculos, bem como o histórico clínico do paciente. Geralmente, os cálculos na vesícula que não causam sintomas não são tratados de imediato, mas em alguns há indicação de realizar a cirurgia para retirada da vesícula (colecistectomia):
+A decisão de tratar casos assintomáticos de cálculos na vesícula depende de vários fatores, incluindo o tamanho e o número dos cálculos, bem como o histórico clínico do paciente. Geralmente, os cálculos na vesícula que não causam sintomas não são tratados de imediato, mas em alguns há indicação de realizar a cirurgia para retirada da vesícula (colecistectomia)[^easl-2016]:
 
 - **Anemias hemolíticas**, como anemia falciforme
 - **Vesícula em porcelana** - calcificação da parede da vesícula biliar, que é um fator de risco para câncer de vesícula.
@@ -85,3 +87,10 @@ Em resumo, a abordagem terapêutica dos cálculos na vesícula biliar assintomá
 ## Conclusão
 
 A vesícula biliar desempenha um papel importante na digestão, mas os cálculos biliares podem causar problemas significativos se não forem tratados. Reconhecer os sintomas e procurar avaliação médica pode ajudar a evitar complicações futuras. Se você tiver sintomas ou preocupações relacionadas a cálculos biliares, entre em contato com um médico para obter orientação e tratamento adequados.
+
+## Referências
+
+[^stinton-2012]: Stinton LA, Shaffer EA. _Epidemiology of gallbladder disease: cholelithiasis and cancer._ **2012**.
+[^bariatric-2022]: Mohamed UA _et al._ _Incidence of gallstone formation after bariatric surgery: systematic review._ **2022**.
+[^vanbaal-2012]: van Baal MC _et al._ _Timing of cholecystectomy after mild biliary pancreatitis: a systematic review._ **2012**.
+[^easl-2016]: European Association for the Study of the Liver (EASL). _Clinical Practice Guidelines on gallstone disease._ **2016**.
