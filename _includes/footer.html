@@ -286,6 +286,19 @@
         });
       });
     }
+
+    // Add click event listeners to all navbar items to close the menu when clicked
+    document.querySelectorAll('.navbar-item').forEach((item) => {
+      item.addEventListener('click', () => {
+        const $navbarBurgers = document.querySelectorAll('.navbar-burger');
+        const $navbarMenu = document.getElementById('navMenu');
+
+        $navbarBurgers.forEach((burger) => {
+          burger.classList.remove('is-active');
+        });
+        $navbarMenu.classList.remove('is-active');
+      });
+    });
   });
 
   // Metricool script

@@ -367,12 +367,15 @@ div.subtitle {
 
   li {
     margin-bottom: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 12px;
 
     .icon {
       width: 24px;
       height: 24px;
       vertical-align: middle;
-      margin-right: 12px;
     }
   }
 }
