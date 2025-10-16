@@ -12,7 +12,7 @@
           <link itemprop="image" href="/assets/images/{{ workplace.image }}">
           {% if workplace.links.map %}
           <a href="{{ workplace.links.map }}" target="_blank" class="link-maps" rel="noreferrer"
-            onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Google Maps - {{ workplace.eventLabel }}'});">
+            onclick="gtag('event', 'maps_click', { 'location': '{{ workplace.eventLabel }}', 'section': 'Atendimento Card Image' });">
             {% endif %}
             {% if workplace.image %}
             <div class="map" style="background-image: url(/assets/images/{{ workplace.image }})"></div>
@@ -31,7 +31,7 @@
             <h5 itemprop="name">
               {% if workplace.links.map %}
               <a href="{{ workplace.links.map }}" target="_blank" class="link-maps" rel="noreferrer"
-                onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Google Maps - {{ workplace.eventLabel }}'});">
+                onclick="gtag('event', 'maps_click', { 'location': '{{ workplace.eventLabel }}', 'section': 'Atendimento Card Title' });">
                 {% endif %}
                 {{ workplace.title }}
                 {% if workplace.links.map %}
@@ -47,12 +47,12 @@
           <div class="card-footer">
             <a class="card-footer-item" itemprop="url" href="{{ workplace.links.schedule }}" target="_blank"
               rel="noreferrer"
-              onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'WhatsApp'});gtag('event', 'conversion', {'send_to': 'AW-1035494901/EYlkCMj25ZkDEPXL4e0D'});">Agendar
+              onclick="gtag('event', 'whatsapp_click', { 'location': 'Atendimento Card - {{ workplace.eventLabel }}' });gtag('event', 'conversion', {'send_to': 'AW-1035494901/EYlkCMj25ZkDEPXL4e0D'});">Agendar
               consulta</a>
             {% if workplace.links.plans %}
             <a class="card-footer-item" itemprop="url" href="{{ workplace.links.plans }}" target="_blank"
               rel="noreferrer"
-              onclick="gtag('event', 'click', { 'event_category': 'Outbound links', 'event_label': 'Consulta convênios - {{ workplace.eventLabel }}'});">Ver
+              onclick="gtag('event', 'insurance_click', { 'location': '{{ workplace.eventLabel }}' });">Ver
               convênios</a>
             {% endif %}
           </div>
