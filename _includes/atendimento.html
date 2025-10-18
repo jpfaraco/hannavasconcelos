@@ -45,15 +45,29 @@
             </p>
           </div>
           <div class="card-footer">
+            {% if workplace.links.schedule %}
             <a class="card-footer-item" itemprop="url" href="{{ workplace.links.schedule }}" target="_blank"
               rel="noreferrer"
               onclick="gtag('event', 'whatsapp_click', { 'location': 'Atendimento Card - {{ workplace.eventLabel }}' });gtag('event', 'conversion', {'send_to': 'AW-1035494901/EYlkCMj25ZkDEPXL4e0D'});">Agendar
               consulta</a>
+            {% endif %}
             {% if workplace.links.plans %}
             <a class="card-footer-item" itemprop="url" href="{{ workplace.links.plans }}" target="_blank"
               rel="noreferrer"
               onclick="gtag('event', 'insurance_click', { 'location': '{{ workplace.eventLabel }}' });">Ver
               convênios</a>
+            {% endif %}
+            {% if workplace.links.phoneSchedule %}
+            <a class="card-footer-item" itemprop="url" href="{{ workplace.links.phoneSchedule }}" target="_blank"
+              rel="noreferrer"
+              onclick="gtag('event', 'phoneSchedule_click', { 'location': '{{ workplace.eventLabel }}' });">Agendar
+              por telefone</a>
+            {% endif %}
+            {% if workplace.links.onlineSchedule %}
+            <a class="card-footer-item" itemprop="url" href="{{ workplace.links.onlineSchedule }}" target="_blank"
+              rel="noreferrer"
+              onclick="gtag('event', 'onlineSchedule_click', { 'location': '{{ workplace.eventLabel }}' });">Agendar
+              pelo site</a>
             {% endif %}
           </div>
         </div>

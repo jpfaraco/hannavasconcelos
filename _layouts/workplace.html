@@ -52,14 +52,28 @@
               </p>
             </div>
             <div class="card-footer">
+              {% if page.links.schedule %}
               <a class="card-footer-item" itemprop="url" href="{{ page.links.schedule }}" target="_blank"
                 rel="noreferrer"
-                onclick="gtag('event', 'whatsapp_click', { 'location': 'Workplace Page - {{ page.eventLabel }}' });gtag('event', 'conversion', {'send_to': 'AW-1035494901/EYlkCMj25ZkDEPXL4e0D'});">Agendar
+                onclick="gtag('event', 'whatsapp_click', { 'location': 'Atendimento Card - {{ page.eventLabel }}' });gtag('event', 'conversion', {'send_to': 'AW-1035494901/EYlkCMj25ZkDEPXL4e0D'});">Agendar
                 consulta</a>
+              {% endif %}
               {% if page.links.plans %}
               <a class="card-footer-item" itemprop="url" href="{{ page.links.plans }}" target="_blank" rel="noreferrer"
                 onclick="gtag('event', 'insurance_click', { 'location': '{{ page.eventLabel }}' });">Ver
                 convênios</a>
+              {% endif %}
+              {% if page.links.phoneSchedule %}
+              <a class="card-footer-item" itemprop="url" href="{{ page.links.phoneSchedule }}" target="_blank"
+                rel="noreferrer"
+                onclick="gtag('event', 'phoneSchedule_click', { 'location': '{{ page.eventLabel }}' });">Agendar
+                por telefone</a>
+              {% endif %}
+              {% if page.links.onlineSchedule %}
+              <a class="card-footer-item" itemprop="url" href="{{ page.links.onlineSchedule }}" target="_blank"
+                rel="noreferrer"
+                onclick="gtag('event', 'onlineSchedule_click', { 'location': '{{ page.eventLabel }}' });">Agendar
+                pelo site</a>
               {% endif %}
             </div>
           </div>
