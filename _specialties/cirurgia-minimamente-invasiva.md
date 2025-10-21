@@ -1,0 +1,7 @@
+---
+title: "Cirurgia minimamente invasiva"
+order: 2
+sitemap: false
+---
+
+Técnica cirúrgica que utiliza instrumentos de visualização e manipulação mínima para realizar procedimentos através de pequenas incisões na pele. Isso permite uma recuperação mais rápida e menos dor do que as técnicas cirúrgicas tradicionais.

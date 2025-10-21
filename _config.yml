@@ -44,6 +44,8 @@ collections:
   testimonials:
     output: true
     permalink: /:collection/:name/
+  specialties:
+    output: false
 
 # Build settings
 markdown: kramdown

@@ -1,0 +1,7 @@
+---
+title: "Tumores malignos do fígado"
+order: 8
+sitemap: false
+---
+
+Tratamento de tumores malignos do fígado, como o hepatocarcinoma. A cirurgia envolve a remoção do tumor, mas pode ser mais complexa do que a remoção de tumores benignos devido à necessidade de preservar a função hepática. A quimioterapia e a radioterapia também podem ser usadas no tratamento de tumores malignos do fígado
