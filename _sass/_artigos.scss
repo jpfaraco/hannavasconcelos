@@ -1,4 +1,20 @@
-#artigos {
+#artigos,
+#blog {
+  background-color: $color-bg-articles;
+  h4 {
+    margin: 2rem 0 1rem 0;
+  }
+  .publications {
+    li {
+      display: flex;
+      gap: 1rem;
+
+      .postDate {
+        margin-top: 0.15rem;
+      }
+    }
+  }
+
   li {
     margin-bottom: 1rem;
   }

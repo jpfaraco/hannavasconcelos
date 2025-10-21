@@ -1,0 +1,20 @@
+<section id="blog" class="section">
+  <div class="container">
+    <div class="subtitle">
+      <h3>Blog</h3>
+    </div>
+    <ul class="publications content">
+      {% for post in site.posts %}
+      {% if post.categories contains "blog" %}
+      <li>
+        <span class="postDate has-text-grey text-mono">{{ post.date | date: "%m/%Y" }} </span>
+        <div>
+          <a href="{{ post.url | prepend:site.baseurl }}" title="{{ post.title}}"> {{ post.title}}</a>
+          <p class="is-size-7 has-text-grey">{{ post.subtitle }}</p>
+        </div>
+      </li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</section>
