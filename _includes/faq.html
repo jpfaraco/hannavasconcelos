@@ -1,0 +1,24 @@
+{% if include.topic %}
+{% assign topic_faqs = site.faqs | where: "topic", include.topic | sort: 'order' %}
+{% if topic_faqs.size > 0 %}
+<section id="faq" class="section" itemscope itemtype="https://schema.org/FAQPage">
+  <div class="container">
+    <div class="subtitle">
+      <h3>Perguntas frequentes</h3>
+    </div>
+    {% for faq in topic_faqs %}
+    <div class="collapsible" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+      <h4 itemprop="name">{{ faq.question }}</h4>
+      <div class="chevron"></div>
+    </div>
+    <div class="content" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <div itemprop="text">
+        {{ faq.content }}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% include mobile-schedule-button.html %}
+</section>
+{% endif %}
+{% endif %}

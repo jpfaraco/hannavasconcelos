@@ -9,10 +9,13 @@
   <!-- End Google Tag Manager (noscript) -->
   {% include nav-landing.html %}
   {% include hero-landing.html %}
-  {% include especialidades.html %}
   {% include atendimento.html %}
+  {% if page.topic %}
+  {% include faq.html topic=page.topic %}
+  {% endif %}
   {% include depoimentos.html %}
   {% include sobre.html %}
+  {% include especialidades.html %}
   {% include footer.html %}
 </body>
 

@@ -36,8 +36,8 @@ h3 {
 
 .content h3 {
   font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-size: 1rem;
-  font-weight: 700;
+  font-size: 1.25rem;
+  font-weight: 600;
 
   &:not(:first-child) {
     margin-top: 2em;
@@ -47,6 +47,12 @@ h3 {
 h4 {
   font-size: 2rem;
   line-height: 100%;
+}
+
+.content h4 {
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
 }
 
 h5 {

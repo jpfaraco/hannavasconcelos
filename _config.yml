@@ -46,6 +46,8 @@ collections:
     permalink: /:collection/:name/
   specialties:
     output: false
+  faqs:
+    output: false
 
 # Build settings
 markdown: kramdown

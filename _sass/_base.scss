@@ -59,6 +59,10 @@ nav {
   }
 }
 
+#post #navbar-cta {
+  display: block !important;
+}
+
 #hero {
   background-color: $color-bg-hero;
   background-image: url("/assets/images/hero-image.webp");
@@ -196,7 +200,8 @@ div.subtitle {
   }
 }
 
-#especialidades {
+#especialidades,
+#faq {
   .icon {
     vertical-align: middle;
     margin-right: 0.5rem;
@@ -246,6 +251,15 @@ div.subtitle {
 
     p {
       padding: 0px 16px 16px;
+    }
+  }
+}
+
+#faq {
+  .collapsible {
+    h4 {
+      font-weight: 400;
+      font-size: 1rem;
     }
   }
 }

@@ -4,5 +4,6 @@
 
 title: "Dra. Hanna Vasconcelos | Cirurgiã geral especialista em vesícula"
 slogan: "Cirurgiã geral especialista em vesícula"
+topic: "vesicula"
 layout: landing
 ---

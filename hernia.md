@@ -4,5 +4,6 @@
 
 title: "Dra. Hanna Vasconcelos | Cirurgiã geral especialista em hérnias da parede abdominal"
 slogan: "Cirurgiã geral especialista em hérnias da parede abdominal"
+topic: "hernia"
 layout: landing
 ---
