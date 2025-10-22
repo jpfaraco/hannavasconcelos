@@ -2,7 +2,7 @@
 layout: post
 title: "Cirurgia de vesícula: tempo de recuperação e repouso completo"
 subtitle: "Quanto tempo dura o repouso e quando você pode voltar às suas atividades normais"
-date: 2025-10-20
+date: 2025-10-14 12:19:08 -0300
 sitemap: false
 categories: blog vesicula
 ---

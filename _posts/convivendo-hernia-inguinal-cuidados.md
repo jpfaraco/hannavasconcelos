@@ -2,7 +2,7 @@
 layout: post
 title: "Convivendo com hérnia inguinal: o que pode e não pode fazer"
 subtitle: "Guia completo de cuidados, atividades permitidas e proibidas para quem tem hérnia inguinal"
-date: 2025-10-21 13:00:00 -0300
+date: 2025-10-19 14:08:42 -0300
 sitemap: false
 categories: blog hernia
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "É possível tratar hérnia umbilical sem cirurgia? Convivendo com a hérnia"
 subtitle: "Entenda por que não existe cura sem cirurgia e como conviver com segurança enquanto aguarda tratamento"
-date: 2025-10-21 16:00:00 -0300
+date: 2025-10-04 13:22:59 -0300
 sitemap: false
 categories: blog hernia
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "É possível tratar hérnia inguinal sem cirurgia? Quando operar é necessário"
 subtitle: "Entenda as opções de tratamento, a eficácia de cada abordagem e quando a cirurgia é realmente necessária"
-date: 2025-10-21 12:00:00 -0300
+date: 2025-09-24 10:21:37 -0300
 sitemap: false
 categories: blog hernia
 ---

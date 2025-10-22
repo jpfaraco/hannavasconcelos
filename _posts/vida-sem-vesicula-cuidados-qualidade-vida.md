@@ -2,7 +2,7 @@
 layout: post
 title: "Vida sem vesícula: o que muda, cuidados e qualidade de vida"
 subtitle: "Como o corpo funciona após a retirada da vesícula e o que esperar no longo prazo"
-date: 2025-10-20
+date: 2025-10-10 09:52:31 -0300
 sitemap: false
 categories: blog vesicula
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "Hérnia inguinal: perigos, complicações e quando se torna grave"
 subtitle: "Entenda os riscos reais e quando a hérnia inguinal requer atenção imediata"
-date: 2025-10-21 11:00:00 -0300
+date: 2025-10-02 13:44:56 -0300
 sitemap: false
 categories: blog hernia
 ---

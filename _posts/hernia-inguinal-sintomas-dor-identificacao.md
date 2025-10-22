@@ -2,7 +2,7 @@
 layout: post
 title: "Hérnia inguinal: sintomas, dor e como identificar"
 subtitle: "Aprenda a reconhecer os sinais e quando procurar atendimento médico"
-date: 2025-10-21 10:00:00 -0300
+date: 2025-10-17 15:33:19 -0300
 sitemap: false
 categories: blog hernia
 ---

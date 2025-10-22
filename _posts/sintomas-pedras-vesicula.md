@@ -2,7 +2,7 @@
 layout: post
 title: "Sintomas de pedras na vesícula"
 subtitle: "Como identificar os sinais e evitar cirurgias de emergência"
-date: 2024-03-25 09:32:09 -0300
+date: 2025-10-05 16:28:53 -0300
 sitemap: false
 categories: blog vesicula
 ---

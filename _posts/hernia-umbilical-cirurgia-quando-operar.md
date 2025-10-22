@@ -2,7 +2,7 @@
 layout: post
 title: "Cirurgia de hérnia umbilical: quando operar, recuperação e riscos"
 subtitle: "Entenda quando a cirurgia é necessária, como é feita e o que esperar da recuperação"
-date: 2025-10-21 15:00:00 -0300
+date: 2025-10-07 11:36:48 -0300
 sitemap: false
 categories: blog hernia
 ---
