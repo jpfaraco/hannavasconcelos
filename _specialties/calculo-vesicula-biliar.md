@@ -6,7 +6,7 @@ sitemap: false
 
 Remoção de pedras (ou cálculos) biliares, que são depósitos duros que se formam na vesícula biliar. A cirurgia envolve a remoção da vesícula biliar através de uma incisão na parede abdominal.
 
-<p><a href="{% link _posts/2024-04-10-vesicula-biliar-e-calculos-biliares.md %}">
+<p><a href="/especialidade/vesicula-biliar-e-calculos-biliares/">
   <img src="/assets/images/icon-document.svg" class="icon" alt="Ícone" />Leia mais sobre a vesícula biliar e os cálculos biliares</a></p>
 
 <p><a href="https://www.instagram.com/p/CtrbL0OAYIX/" target="_blank"><img src="/assets/images/icon-video-square.svg" class="icon" alt="Ícone" />Entenda o que pode acontecer quando você tem cálculos biliares</a></p>
