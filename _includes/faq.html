@@ -7,13 +7,15 @@
       <h3>Perguntas frequentes</h3>
     </div>
     {% for faq in topic_faqs %}
-    <div class="collapsible" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-      <h4 itemprop="name">{{ faq.question }}</h4>
-      <div class="chevron"></div>
-    </div>
-    <div class="content" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-      <div itemprop="text">
-        {{ faq.content }}
+    <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+      <div class="collapsible">
+        <h4 itemprop="name">{{ faq.question }}</h4>
+        <div class="chevron"></div>
+      </div>
+      <div class="content" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+        <div itemprop="text">
+          {{ faq.content }}
+        </div>
       </div>
     </div>
     {% endfor %}
