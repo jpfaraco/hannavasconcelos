@@ -22,6 +22,9 @@ url: "https://hannavasconcelos.com.br" # the base hostname & protocol for your s
 permalink: /:categories/:title/
 sass:
   style: compact
+  quiet_deps: true
+  silence_deprecations:
+    - import
 
 social:
   - name: instagram

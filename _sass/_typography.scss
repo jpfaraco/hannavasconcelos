@@ -1,4 +1,20 @@
-@import url("https://use.typekit.net/zog7ygc.css");
+@font-face {
+  font-family: 'ivypresto-display';
+  src: url('../fonts/ivypresto_display_thin_regular-webfont.woff2') format('woff2'),
+       url('../fonts/ivypresto_display_thin_regular-webfont.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ivypresto-display';
+  src: url('../fonts/ivypresto_display_thin_italic-webfont.woff2') format('woff2'),
+       url('../fonts/ivypresto_display_thin_italic-webfont.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
 
 $family-serif: "ivypresto-display", "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
 $family-monospace: "SFMono-Regular", SFMono-Regular, Consolas, "Liberation Mono", Menlo, Monaco, "Courier New", Courier, monospace;
