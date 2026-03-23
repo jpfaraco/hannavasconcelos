@@ -35,6 +35,45 @@
     </div>
   </section>
   {% include footer-post.html %}
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalWebPage",
+    "headline": {{ page.title | jsonify }},
+    {% if page.subtitle %}"alternativeHeadline": {{ page.subtitle | jsonify }},{% endif %}
+    "datePublished": "{{ page.date | date_to_xmlschema }}",
+    "dateModified": "{{ page.date | date_to_xmlschema }}",
+    "url": "{{ page.url | absolute_url }}",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Physician",
+      "name": "Dra. Hanna Vasconcelos",
+      "url": "https://hannavasconcelos.com.br",
+      "jobTitle": "Cirurgiã Geral e do Aparelho Digestivo",
+      "medicalSpecialty": "Surgery",
+      "qualifications": "CRM 52104018-9 | RQE 45103 / 45104"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Consultório da Dra. Hanna Vasconcelos",
+      "url": "https://hannavasconcelos.com.br",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://hannavasconcelos.com.br/assets/favicon-32x32.png"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ page.url | absolute_url }}"
+    },
+    "about": {
+      "@type": "MedicalCondition",
+      "name": {{ page.title | jsonify }}
+    },
+    "specialty": "https://schema.org/Surgical"
+  }
+  </script>
 </body>
 
 </html>

@@ -87,26 +87,77 @@
 
   <script type="application/ld+json">
     {
-      "@context": "http://schema.org",
-      "@type": "Person",
+      "@context": "https://schema.org",
+      "@type": "Physician",
       "name": "Dra. Hanna Vasconcelos",
-      "jobTitle": "Cirurgiã Geral e Especialista em Videolaparoscopia",
+      "jobTitle": "Cirurgiã Geral e do Aparelho Digestivo",
+      "description": "Cirurgiã geral e do aparelho digestivo, especialista em cirurgia minimamente invasiva por videolaparoscopia, hérnias da parede abdominal e cirurgia hepatobiliar. Fellowship em Cirurgia Hepatobiliar no Centre Hépato-Biliaire Paul Brousse, Paris, França.",
+      "medicalSpecialty": ["Surgery", "GastroenterologicalSurgery"],
+      "qualifications": "CRM 52104018-9 | RQE 45103 / 45104",
+      "alumniOf": [
+        {
+          "@type": "EducationalOrganization",
+          "name": "UNIRIO — Universidade Federal do Estado do Rio de Janeiro"
+        },
+        {
+          "@type": "EducationalOrganization",
+          "name": "Hospital Federal de Ipanema"
+        },
+        {
+          "@type": "EducationalOrganization",
+          "name": "Centre Hépato-Biliaire Paul Brousse, Paris, França"
+        }
+      ],
+      "memberOf": [
+        {
+          "@type": "Organization",
+          "name": "Colégio Brasileiro de Cirurgia Hepato-Bilio-Pancreática (CB.IHPBA)"
+        },
+        {
+          "@type": "Organization",
+          "name": "Colégio Brasileiro de Cirurgiões (CBC)"
+        }
+      ],
       "worksFor": {
-        "@type": "Organization",
+        "@type": "MedicalOrganization",
         "name": "Consultório da Dra. Hanna Vasconcelos"
       },
       "url": "https://hannavasconcelos.com.br/",
       "image": "https://hannavasconcelos.com.br/assets/images/hero-thumb.png",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Rio de Janeiro, Niterói",
-        "addressRegion": "RJ",
-        "addressCountry": "BR"
-      },
+      "address": [
+        {
+          "@type": "PostalAddress",
+          "streetAddress": "Rua Visconde de Ouro Preto, 5, 5º andar",
+          "addressLocality": "Rio de Janeiro",
+          "addressRegion": "RJ",
+          "postalCode": "22250-180",
+          "addressCountry": "BR"
+        },
+        {
+          "@type": "PostalAddress",
+          "addressLocality": "Niterói",
+          "addressRegion": "RJ",
+          "addressCountry": "BR"
+        }
+      ],
       "telephone": "+552139552441",
       "email": "contato@hannavasconcelos.com.br",
       "sameAs": [
-        "https://instagram.com/dra.hannavasconcelos"
+        "https://www.instagram.com/dra.hannavasconcelos",
+        "https://www.facebook.com/dra.hannavasconcelos",
+        "https://www.linkedin.com/in/hanna-vasconcelos-676404134/"
+      ],
+      "knowsLanguage": ["pt-BR", "fr", "en"],
+      "availableService": [
+        {"@type": "MedicalProcedure", "name": "Cirurgia de hérnia inguinal"},
+        {"@type": "MedicalProcedure", "name": "Cirurgia de hérnia umbilical"},
+        {"@type": "MedicalProcedure", "name": "Colecistectomia (cirurgia de vesícula biliar)"},
+        {"@type": "MedicalProcedure", "name": "Cirurgia hepatobiliar (fígado, vias biliares, pâncreas)"},
+        {"@type": "MedicalProcedure", "name": "Cirurgia minimamente invasiva por videolaparoscopia"},
+        {"@type": "MedicalProcedure", "name": "Remoção de cistos hepáticos"},
+        {"@type": "MedicalProcedure", "name": "Tratamento de tumores hepáticos"},
+        {"@type": "MedicalProcedure", "name": "Remoção de lipomas e cistos sebáceos"},
+        {"@type": "MedicalProcedure", "name": "Detecção e tratamento do câncer colorretal"}
       ]
     }
     </script>

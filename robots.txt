@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hannavasconcelos.com.br/sitemap.xml
+
+# LLM and AI crawler guidance
+# Full site information for LLMs: https://hannavasconcelos.com.br/llms.txt
+# Structured API spec: https://hannavasconcelos.com.br/openapi.json
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
