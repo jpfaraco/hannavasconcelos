@@ -2,7 +2,6 @@
 layout: post
 title: "Riscos da cirurgia laparoscópica"
 date: 2025-09-30 08:41:22 -0300
-sitemap: false
 categories: blog laparoscopia
 ---
 

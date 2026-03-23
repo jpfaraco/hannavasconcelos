@@ -3,7 +3,6 @@ layout: post
 title: "Hérnia umbilical: perigos, complicações e o que pode acontecer se estourar"
 subtitle: "Entenda os riscos reais, o que significa hérnia estourada e quando buscar ajuda urgente"
 date: 2025-09-26 16:54:13 -0300
-sitemap: false
 categories: blog hernia
 ---
 
@@ -16,6 +15,7 @@ A hérnia umbilical, por si só, **não é imediatamente perigosa** na maioria d
 ### Hérnias umbilicais não complicadas
 
 A maioria das hérnias umbilicais:
+
 - Causa apenas desconforto leve ou nenhum sintoma
 - Pode ser acompanhada com segurança por um período
 - Permite tempo para planejamento cirúrgico eletivo
@@ -59,6 +59,7 @@ Essas complicações **podem ser fatais** se não tratadas rapidamente.
 **Frequência:** Embora não existam dados específicos tão robustos quanto para hérnias inguinais, estima-se que ocorra em aproximadamente **5% a 10%** das hérnias umbilicais não tratadas.
 
 **Sintomas:**
+
 - Dor súbita e intensa no umbigo
 - Hérnia irredutível (não volta)
 - Náuseas e possível vômito
@@ -72,11 +73,13 @@ Essas complicações **podem ser fatais** se não tratadas rapidamente.
 **O que é:** Complicação grave onde o suprimento sanguíneo do tecido herniado é comprometido, levando à **isquemia** (falta de oxigênio) e potencialmente à **necrose** (morte do tecido).
 
 **Frequência:** Hérnias umbilicais têm risco de estrangulamento, embora talvez ligeiramente menor que hérnias femorais. O risco aumenta com:
+
 - Hérnias irredutíveis
 - Defeitos pequenos com "colo" estreito
 - Hérnias negligenciadas por anos
 
 **Sintomas:**
+
 - Dor intensa e constante
 - Náuseas e vômitos profusos
 - Mudança de cor da hérnia (vermelhidão, arroxeamento)
@@ -90,6 +93,7 @@ Essas complicações **podem ser fatais** se não tratadas rapidamente.
 **O que é:** Quando uma alça intestinal fica presa na hérnia e seu trânsito é bloqueado.
 
 **Sintomas:**
+
 - Cólica abdominal intensa
 - Distensão abdominal progressiva
 - Náuseas e vômitos (podem ser fecaloides em casos avançados)
@@ -101,6 +105,7 @@ Essas complicações **podem ser fatais** se não tratadas rapidamente.
 #### 4. Ruptura da pele
 
 Em casos extremos de hérnias gigantes negligenciadas (muito raro):
+
 - A pele sobre a hérnia pode ulcerar
 - Exposição do conteúdo abdominal
 - Risco de infecção grave
@@ -146,6 +151,7 @@ A hérnia **não estoura literalmente** como um balão. O termo geralmente se re
 #### 3. Ruptura da pele (raríssimo)
 
 Em casos extremos de hérnias muito grandes e negligenciadas:
+
 - A pele sobre a hérnia pode **ulcerar e romper**
 - Exposição do conteúdo da hérnia
 - Risco de infecção e peritonite
@@ -160,6 +166,7 @@ Em casos extremos de hérnias muito grandes e negligenciadas:
 - **Necessidade de cirurgia de emergência**: muito mais arriscada que cirurgia eletiva
 
 **Mortalidade:**
+
 - Cirurgia eletiva (programada): < 1%
 - Cirurgia de emergência com complicações: 5% a 15%
 
@@ -172,6 +179,7 @@ Entender o que agrava a hérnia é crucial para prevenir complicações:
 #### 1. Aumento da pressão intra-abdominal
 
 **Causas:**
+
 - **Obesidade**: pressão constante na parede abdominal
 - **Gravidez**: especialmente múltiplas gestações
 - **Ascite**: acúmulo de líquido abdominal (cirrose, IC)
@@ -251,6 +259,7 @@ Nem todas as hérnias umbilicais requerem preocupação imediata, mas certos sin
 ### Quando não é tão preocupante (mas ainda requer atenção)
 
 Hérnias que são:
+
 - Pequenas e completamente assintomáticas
 - Facilmente redutíveis
 - Estáveis em tamanho há anos
@@ -294,6 +303,7 @@ A decisão de não operar deve ser baseada em avaliação médica cuidadosa:
 ### Quando vigilância pode ser considerada
 
 Apenas em casos **muito específicos**:
+
 - Hérnias **completamente assintomáticas**
 - **Facilmente redutíveis**
 - Pacientes com **contraindicação cirúrgica** severa
@@ -304,15 +314,15 @@ Apenas em casos **muito específicos**:
 
 Esta tabela resume os dados baseados em evidências:
 
-| Aspecto | Cirurgia Eletiva | Não Operar |
-|---------|------------------|------------|
-| Cura definitiva | Sim (95%+ sucesso) | Não |
-| Mortalidade | < 1% | Risco em complicações: 5-15% |
-| Complicações cirúrgicas | 5-10% | Risco de complicação da hérnia: 5-10%+ |
-| Recidiva | 1-5% com tela | Hérnia persiste e pode crescer |
-| Tempo de recuperação | 2-4 semanas | Não aplicável |
-| Qualidade de vida | Melhora significativa | Sintomas persistem/pioram |
-| Risco futuro | Mínimo (após cicatrização) | Contínuo enquanto hérnia existir |
+| Aspecto                 | Cirurgia Eletiva           | Não Operar                             |
+| ----------------------- | -------------------------- | -------------------------------------- |
+| Cura definitiva         | Sim (95%+ sucesso)         | Não                                    |
+| Mortalidade             | < 1%                       | Risco em complicações: 5-15%           |
+| Complicações cirúrgicas | 5-10%                      | Risco de complicação da hérnia: 5-10%+ |
+| Recidiva                | 1-5% com tela              | Hérnia persiste e pode crescer         |
+| Tempo de recuperação    | 2-4 semanas                | Não aplicável                          |
+| Qualidade de vida       | Melhora significativa      | Sintomas persistem/pioram              |
+| Risco futuro            | Mínimo (após cicatrização) | Contínuo enquanto hérnia existir       |
 
 ## Fatores que aumentam o risco de complicações
 
@@ -381,6 +391,7 @@ Se você tem hérnia umbilical e está aguardando cirurgia:
 ### Quando reagendar cirurgia
 
 Não adie cirurgia programada sem justificativa médica se:
+
 - Hérnia é sintomática
 - Você tem fatores de risco
 - Hérnia está crescendo

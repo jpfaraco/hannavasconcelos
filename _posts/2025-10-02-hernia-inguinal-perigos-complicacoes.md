@@ -3,7 +3,6 @@ layout: post
 title: "Hérnia inguinal: perigos, complicações e quando se torna grave"
 subtitle: "Entenda os riscos reais e quando a hérnia inguinal requer atenção imediata"
 date: 2025-10-02 13:44:56 -0300
-sitemap: false
 categories: blog hernia
 ---
 
@@ -42,10 +41,12 @@ Vamos detalhar os principais riscos associados à hérnia inguinal:
 **O que é:** O encarceramento ocorre quando o conteúdo da hérnia (geralmente intestino ou gordura) fica preso no defeito da parede abdominal e não consegue retornar à cavidade abdominal.
 
 **Frequência:**
+
 - Ocorre em aproximadamente **6% a 15%** das hérnias inguinais não tratadas
 - Risco aumenta com o tempo
 
 **Sintomas:**
+
 - Dor súbita e intensa na hérnia
 - Impossibilidade de reduzir a hérnia (empurrar de volta)
 - Náuseas e vômitos
@@ -59,11 +60,13 @@ Vamos detalhar os principais riscos associados à hérnia inguinal:
 **O que é:** Complicação grave onde o suprimento sanguíneo do tecido herniado é comprometido, levando à **isquemia (falta de oxigênio)** e potencialmente à **necrose (morte do tecido)**.
 
 **Frequência:**
+
 - Probabilidade acumulada de **4,5% em 2 anos** para hérnias não tratadas
 - Risco anual de estrangulamento: **0,2% a 2,7%**
 - Hérnias femorais têm risco maior (até 40% em alguns estudos)
 
 **Sintomas de alerta:**
+
 - Dor intensa e súbita
 - Hérnia irredutível
 - Náuseas e vômitos profusos
@@ -81,6 +84,7 @@ Vamos detalhar os principais riscos associados à hérnia inguinal:
 **O que é:** Quando uma alça intestinal fica presa na hérnia e seu trânsito é bloqueado.
 
 **Sintomas:**
+
 - Cólica abdominal intensa
 - Distensão abdominal progressiva
 - Náuseas e vômitos (podem ser fecaloides em casos avançados)
@@ -192,11 +196,11 @@ O risco de vida existe quando há:
 
 A mortalidade varia drasticamente:
 
-| Tipo de cirurgia | Mortalidade |
-|------------------|-------------|
-| Cirurgia eletiva (programada) | < 0,1% |
-| Cirurgia de emergência | 1% a 5% |
-| Emergência com necrose intestinal | 5% a 15% |
+| Tipo de cirurgia                  | Mortalidade |
+| --------------------------------- | ----------- |
+| Cirurgia eletiva (programada)     | < 0,1%      |
+| Cirurgia de emergência            | 1% a 5%     |
+| Emergência com necrose intestinal | 5% a 15%    |
 
 **Conclusão:** Operar de forma programada é **50 a 150 vezes mais seguro** do que aguardar uma complicação.
 

@@ -3,7 +3,6 @@ layout: post
 title: "Cirurgia robótica na cirurgia geral"
 subtitle: "Inovação e desafios"
 date: 2025-10-08 14:23:17 -0300
-sitemap: false
 categories: blog robotica
 ---
 

@@ -3,7 +3,6 @@ layout: post
 title: "Cirurgia de hérnia umbilical: quando operar, recuperação e riscos"
 subtitle: "Entenda quando a cirurgia é necessária, como é feita e o que esperar da recuperação"
 date: 2025-10-07 11:36:48 -0300
-sitemap: false
 categories: blog hernia
 ---
 
@@ -61,16 +60,19 @@ O tamanho é um fator importante, mas **não é o único critério**.
 ### Por que o tamanho importa?
 
 **Hérnias pequenas (< 1 cm):**
+
 - Menor risco de encarceramento (mas não zero)
 - Podem ser reparadas sem tela em alguns casos
 - Risco aumenta se sintomáticas ou irredutíveis
 
 **Hérnias médias (1-5 cm):**
+
 - Risco moderado de complicações
 - Geralmente requerem tela para reparo
 - Cirurgia eletiva recomendada
 
 **Hérnias grandes (> 5 cm):**
+
 - Maior risco de complicações cirúrgicas
 - Podem causar "perda de domicílio" (conteúdo fica permanentemente fora)
 - Podem requerer técnicas de reconstrução mais complexas
@@ -110,12 +112,14 @@ Um cirurgião avaliará:
 ### Exames complementares
 
 **Ultrassonografia:**
+
 - Confirma diagnóstico
 - Avalia tamanho do defeito
 - Identifica conteúdo da hérnia (gordura, intestino)
 - Avalia redutibilidade
 
 **Tomografia computadorizada:**
+
 - Hérnias complexas ou grandes
 - Planejamento cirúrgico detalhado
 - Avaliação de complicações
@@ -158,15 +162,15 @@ Existem duas técnicas principais: **cirurgia aberta** e **cirurgia laparoscópi
 
 ### Cirurgia aberta vs. laparoscópica: comparação
 
-| Critério | Aberta | Laparoscópica |
-|----------|--------|---------------|
-| **Incisão** | Uma, 3-5 cm | Múltiplas, 5-10 mm |
-| **Anestesia** | Local/Raqui/Geral | Geral obrigatória |
-| **Dor pós-operatória** | Moderada | Leve a moderada |
-| **Retorno a atividades** | 2-4 semanas | 1-2 semanas |
-| **Recidiva** | 5-10% (com tela) | 3-5% |
-| **Custo** | Menor | Maior |
-| **Melhor para** | Hérnias pequenas/médias | Hérnias recorrentes, múltiplas |
+| Critério                 | Aberta                  | Laparoscópica                  |
+| ------------------------ | ----------------------- | ------------------------------ |
+| **Incisão**              | Uma, 3-5 cm             | Múltiplas, 5-10 mm             |
+| **Anestesia**            | Local/Raqui/Geral       | Geral obrigatória              |
+| **Dor pós-operatória**   | Moderada                | Leve a moderada                |
+| **Retorno a atividades** | 2-4 semanas             | 1-2 semanas                    |
+| **Recidiva**             | 5-10% (com tela)        | 3-5%                           |
+| **Custo**                | Menor                   | Maior                          |
+| **Melhor para**          | Hérnias pequenas/médias | Hérnias recorrentes, múltiplas |
 
 ### Quando usar tela na cirurgia?
 
@@ -189,6 +193,7 @@ Existem duas técnicas principais: **cirurgia aberta** e **cirurgia laparoscópi
 ### Cirurgia eletiva (programada)
 
 **Regime ambulatorial ou hospital-dia:**
+
 - **Alta no mesmo dia**: maioria dos casos
 - **Chegada**: 1-2 horas antes do horário cirúrgico
 - **Cirurgia**: 30-90 minutos
@@ -196,6 +201,7 @@ Existem duas técnicas principais: **cirurgia aberta** e **cirurgia laparoscópi
 - **Alta**: após recuperação completa da anestesia, aceitação de dieta, ausência de complicações
 
 **Internação de 1 dia (menos comum):**
+
 - Pacientes com comorbidades
 - Cirurgias mais complexas
 - Preferência do cirurgião ou paciente
@@ -203,6 +209,7 @@ Existem duas técnicas principais: **cirurgia aberta** e **cirurgia laparoscópi
 ### Cirurgia de emergência (estrangulamento)
 
 **Internação prolongada:**
+
 - **Mínimo 2-3 dias**: para observação
 - **Até 7-10 dias**: se houver ressecção intestinal, infecção
 - **Internação em UTI**: casos graves com sepse
@@ -214,12 +221,14 @@ A recuperação varia conforme a técnica cirúrgica e características do pacie
 ### Primeiros dias após a cirurgia
 
 **Dia 0-1 (cirurgia e primeiro dia):**
+
 - **Dor**: leve a moderada, controlada com analgésicos
 - **Atividade**: repouso relativo, caminhar em casa é encorajado
 - **Alimentação**: dieta leve, evitar alimentos que causam gases
 - **Curativos**: manter limpo e seco
 
 **Dias 2-7:**
+
 - **Dor**: diminui progressivamente
 - **Atividade**: caminhadas leves, atividades domésticas leves
 - **Retorno ao trabalho**: trabalhos leves/sedentários após 7 dias
@@ -250,6 +259,7 @@ A recuperação varia conforme a técnica cirúrgica e características do pacie
 ### Fatores que influenciam a recuperação
 
 **Recuperação mais rápida:**
+
 - Cirurgia laparoscópica
 - Hérnias pequenas
 - Paciente jovem e saudável
@@ -257,6 +267,7 @@ A recuperação varia conforme a técnica cirúrgica e características do pacie
 - Boa nutrição
 
 **Recuperação mais lenta:**
+
 - Cirurgia aberta
 - Hérnias grandes ou complexas
 - Idade avançada
@@ -270,16 +281,19 @@ Como toda cirurgia, existem riscos, mas a cirurgia de hérnia umbilical é consi
 ### Riscos comuns (5-10%)
 
 **Hematoma/seroma:**
+
 - Acúmulo de sangue ou líquido no local da cirurgia
 - Geralmente resolve espontaneamente
 - Pode requerer punção se volumoso
 
 **Dor crônica:**
+
 - Dor persistente > 3 meses: 2-5% dos casos
 - Geralmente leve e melhora com tempo
 - Relacionada à tela ou fibrose
 
 **Infecção superficial:**
+
 - 1-3% dos casos
 - Tratada com antibióticos
 - Raramente requer remoção de tela
@@ -287,15 +301,18 @@ Como toda cirurgia, existem riscos, mas a cirurgia de hérnia umbilical é consi
 ### Riscos incomuns (< 5%)
 
 **Infecção profunda/tela:**
+
 - Pode requerer antibiótico prolongado
 - Raramente necessita remoção de tela
 
 **Recidiva (retorno da hérnia):**
+
 - Com tela: 5-10% em 5 anos
 - Sem tela (defeitos > 1cm): 20-30%
 - Mais comum em fumantes, obesos, diabéticos
 
 **Lesão intestinal:**
+
 - Muito rara em cirurgia eletiva (< 0,1%)
 - Mais comum em cirurgia de emergência ou hérnias aderidas
 
@@ -340,6 +357,7 @@ Esta é uma pergunta fundamental que muitos pacientes fazem.
 **Para a maioria dos pacientes, operar eletivamente é mais seguro** que aguardar complicações.
 
 **Exceções:**
+
 - Risco cirúrgico extremamente alto (descompensação cardíaca grave, cirrose Child C)
 - Hérnias muito pequenas e assintomáticas em pacientes idosos com múltiplas comorbidades
 
@@ -347,18 +365,18 @@ Esta é uma pergunta fundamental que muitos pacientes fazem.
 
 ## Diferença entre cirurgia eletiva e de emergência
 
-| Aspecto | Cirurgia Eletiva | Cirurgia de Emergência |
-|---------|------------------|------------------------|
-| **Momento** | Programada, com preparo | Imediata, sem preparo |
-| **Indicação** | Hérnia sintomática/crescente | Estrangulamento, encarceramento |
-| **Preparo** | Jejum, exames, otimização | Mínimo ou nenhum |
-| **Anestesia** | Local/Raqui/Geral (escolha) | Geral obrigatória |
-| **Complexidade** | Menor | Maior (aderências, isquemia) |
-| **Ressecção intestinal** | < 0,1% | 20-30% |
-| **Internação** | Ambulatorial ou 1 dia | 2-10 dias |
-| **Mortalidade** | < 0,1% | 5-15% |
-| **Recuperação** | 2-6 semanas | 4-12 semanas |
-| **Complicações** | 5-10% | 20-40% |
+| Aspecto                  | Cirurgia Eletiva             | Cirurgia de Emergência          |
+| ------------------------ | ---------------------------- | ------------------------------- |
+| **Momento**              | Programada, com preparo      | Imediata, sem preparo           |
+| **Indicação**            | Hérnia sintomática/crescente | Estrangulamento, encarceramento |
+| **Preparo**              | Jejum, exames, otimização    | Mínimo ou nenhum                |
+| **Anestesia**            | Local/Raqui/Geral (escolha)  | Geral obrigatória               |
+| **Complexidade**         | Menor                        | Maior (aderências, isquemia)    |
+| **Ressecção intestinal** | < 0,1%                       | 20-30%                          |
+| **Internação**           | Ambulatorial ou 1 dia        | 2-10 dias                       |
+| **Mortalidade**          | < 0,1%                       | 5-15%                           |
+| **Recuperação**          | 2-6 semanas                  | 4-12 semanas                    |
+| **Complicações**         | 5-10%                        | 20-40%                          |
 
 **Mensagem principal:** Não espere complicações. Cirurgia eletiva é muito mais segura.
 

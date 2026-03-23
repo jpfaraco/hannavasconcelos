@@ -3,7 +3,6 @@ layout: post
 title: "Hérnia umbilical: sintomas, sinais de alerta e quando é perigosa"
 subtitle: "Aprenda a reconhecer os sintomas e identificar quando a hérnia umbilical requer atenção médica urgente"
 date: 2025-10-12 08:17:25 -0300
-sitemap: false
 categories: blog hernia
 ---
 
@@ -99,6 +98,7 @@ O termo "crise de hérnia" geralmente se refere a um episódio agudo de complica
 ### Sintomas de uma crise de hérnia
 
 **Encarceramento agudo:**
+
 - Dor súbita e intensa no umbigo
 - Hérnia que não "volta" mais (irredutível)
 - Aumento súbito do tamanho da hérnia
@@ -106,6 +106,7 @@ O termo "crise de hérnia" geralmente se refere a um episódio agudo de complica
 - Abdômen tenso e doloroso
 
 **Estrangulamento (mais grave):**
+
 - Dor intensa e progressiva
 - Náuseas e vômitos profusos
 - Mudança de cor da hérnia (vermelhidão, arroxeamento)
@@ -186,12 +187,14 @@ A hérnia umbilical se torna perigosa em várias situações:
 ### 2. Hérnias irredutíveis
 
 Hérnias que **não retornam** à cavidade abdominal têm:
+
 - Maior risco de estrangulamento
 - Indicação cirúrgica mesmo sem outros sintomas
 
 ### 3. Hérnias grandes
 
 Hérnias muito grandes podem:
+
 - Dificultar o fechamento da parede abdominal durante cirurgia
 - Ter maior taxa de complicações
 - Causar desconforto significativo
@@ -206,6 +209,7 @@ Hérnias muito grandes podem:
 ### 5. Hérnias que crescem rapidamente
 
 Crescimento rápido pode indicar:
+
 - Aumento do defeito da parede
 - Maior risco de encarceramento
 - Necessidade de cirurgia mais breve
@@ -226,6 +230,7 @@ A hérnia **não estoura literalmente** como um balão. O que pode ocorrer é:
 ### É perigoso?
 
 **Sim**, pode ser perigoso se resultar em:
+
 - Encarceramento com dor intensa
 - Estrangulamento (emergência)
 - Necessidade de cirurgia de urgência
@@ -273,6 +278,7 @@ A hérnia **não estoura literalmente** como um balão. O que pode ocorrer é:
 ### Avaliação médica
 
 O médico irá:
+
 - **Exame físico**: palpação e inspeção da hérnia
 - **Avaliar tamanho e redutibilidade**: teste da tosse
 - **Solicitar exames se necessário**: ultrassonografia ou tomografia

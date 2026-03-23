@@ -3,7 +3,6 @@ layout: post
 title: "Hérnia inguinal: sintomas, dor e como identificar"
 subtitle: "Aprenda a reconhecer os sinais e quando procurar atendimento médico"
 date: 2025-10-17 15:33:19 -0300
-sitemap: false
 categories: blog hernia
 ---
 
@@ -86,6 +85,7 @@ Várias condições podem ser confundidas com hérnia inguinal. Aqui está como 
 #### Nervo inguinal inflamado (neuralgia inguinal)
 
 **Sintomas do nervo inflamado:**
+
 - Dor tipo queimação ou choque elétrico
 - Dor que irradia pela coxa
 - Piora com determinados movimentos
