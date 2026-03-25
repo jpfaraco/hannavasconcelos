@@ -11,7 +11,10 @@
     },
     "x-professional-credentials": {
       "crm": "52104018-9",
-      "rqe": ["45103", "45104"],
+      "rqe": [
+        "45103",
+        "45104"
+      ],
       "medical_school": "UNIRIO — Universidade Federal do Estado do Rio de Janeiro",
       "residency": "Cirurgia Geral e Videolaparoscopia — Hospital Federal de Ipanema, Rio de Janeiro",
       "fellowship": "Cirurgia Hepatobiliar — Centre Hépato-Biliaire Paul Brousse, Paris, França (2017)",
@@ -20,8 +23,8 @@
         "Cirurgia Hepatobiliar Minimamente Invasiva — IRCAD Barretos, SP (2018)"
       ],
       "memberships": [
-        "Colégio Brasileiro de Cirurgia Hepato-Bilio-Pancreática (CB.IHPBA)",
-        "Colégio Brasileiro de Cirurgiões (CBC)"
+        "Membro do Colégio Brasileiro de Cirurgia Hepato-Bilio-Pancreática (CB.IHPBA)",
+        "Membro Adjunto do Colégio Brasileiro de Cirurgiões (CBC)"
       ]
     },
     "x-locations": [
@@ -62,7 +65,9 @@
       "get": {
         "summary": "Página inicial",
         "description": "Página principal com informações sobre a Dra. Hanna Vasconcelos, suas especialidades, locais de atendimento e depoimentos de pacientes.",
-        "tags": ["Páginas principais"],
+        "tags": [
+          "Páginas principais"
+        ],
         "responses": {
           "200": {
             "description": "Página inicial com informações da cirurgiã geral Dra. Hanna Vasconcelos no Rio de Janeiro"
@@ -74,7 +79,9 @@
       "get": {
         "summary": "Especialidade: hérnias da parede abdominal",
         "description": "Landing page sobre hérnias da parede abdominal — inguinal e umbilical. Informações sobre causas, sintomas, diagnóstico, tratamento cirúrgico e perguntas frequentes.",
-        "tags": ["Especialidades"],
+        "tags": [
+          "Especialidades"
+        ],
         "responses": {
           "200": {
             "description": "Informações completas sobre hérnias da parede abdominal"
@@ -86,7 +93,9 @@
       "get": {
         "summary": "Especialidade: hérnia inguinal",
         "description": "Landing page sobre hérnia inguinal — sintomas, diagnóstico, tratamento cirúrgico, recuperação e perguntas frequentes sobre hérnia inguinal.",
-        "tags": ["Especialidades"],
+        "tags": [
+          "Especialidades"
+        ],
         "responses": {
           "200": {
             "description": "Informações completas sobre hérnia inguinal"
@@ -98,7 +107,9 @@
       "get": {
         "summary": "Especialidade: hérnia umbilical",
         "description": "Landing page sobre hérnia umbilical — sintomas, sinais de alerta, indicações cirúrgicas, recuperação e perguntas frequentes sobre hérnia umbilical.",
-        "tags": ["Especialidades"],
+        "tags": [
+          "Especialidades"
+        ],
         "responses": {
           "200": {
             "description": "Informações completas sobre hérnia umbilical"
@@ -110,7 +121,9 @@
       "get": {
         "summary": "Especialidade: vesícula biliar",
         "description": "Landing page sobre vesícula biliar e cálculos biliares — sintomas, diagnóstico, colecistectomia laparoscópica, recuperação e perguntas frequentes.",
-        "tags": ["Especialidades"],
+        "tags": [
+          "Especialidades"
+        ],
         "responses": {
           "200": {
             "description": "Informações completas sobre vesícula biliar e cálculos biliares"
@@ -122,7 +135,9 @@
       "get": {
         "summary": "Hérnias inguinal e umbilical: causas, sintomas e tratamento",
         "description": "Guia completo sobre hérnias da parede abdominal, incluindo tipos de hérnia, causas, fatores de risco, sintomas e opções de tratamento cirúrgico.",
-        "tags": ["Artigos — Hérnias"],
+        "tags": [
+          "Artigos — Hérnias"
+        ],
         "responses": {
           "200": {
             "description": "Artigo sobre hérnias inguinal e umbilical"
@@ -134,7 +149,9 @@
       "get": {
         "summary": "Hérnia inguinal: sintomas, dor e como identificar",
         "description": "Como reconhecer os sintomas da hérnia inguinal, tipos de dor associados, diferenças entre hérnia direta e indireta, e quando procurar um cirurgião.",
-        "tags": ["Artigos — Hérnias"],
+        "tags": [
+          "Artigos — Hérnias"
+        ],
         "responses": {
           "200": {
             "description": "Artigo sobre sintomas da hérnia inguinal"
@@ -146,7 +163,9 @@
       "get": {
         "summary": "Hérnia inguinal: perigos, complicações e quando se torna grave",
         "description": "Riscos de não tratar a hérnia inguinal, complicações como encarceramento e estrangulamento herniário, e sinais de emergência.",
-        "tags": ["Artigos — Hérnias"],
+        "tags": [
+          "Artigos — Hérnias"
+        ],
         "responses": {
           "200": {
             "description": "Artigo sobre perigos da hérnia inguinal"
@@ -158,7 +177,9 @@
       "get": {
         "summary": "Hérnia inguinal: tratamento sem cirurgia e quando operar",
         "description": "Análise sobre quando a cirurgia é necessária para hérnia inguinal, alternativas não cirúrgicas, e orientações médicas para tomada de decisão.",
-        "tags": ["Artigos — Hérnias"],
+        "tags": [
+          "Artigos — Hérnias"
+        ],
         "responses": {
           "200": {
             "description": "Artigo sobre tratamento não cirúrgico da hérnia inguinal"
@@ -170,7 +191,9 @@
       "get": {
         "summary": "Convivendo com hérnia inguinal: cuidados e restrições",
         "description": "Orientações práticas sobre atividades físicas, trabalho, alimentação e cuidados diários para quem convive com hérnia inguinal.",
-        "tags": ["Artigos — Hérnias"],
+        "tags": [
+          "Artigos — Hérnias"
+        ],
         "responses": {
           "200": {
             "description": "Artigo sobre cuidados ao conviver com hérnia inguinal"
@@ -182,7 +205,9 @@
       "get": {
         "summary": "Hérnia umbilical: sintomas e sinais de alerta",
         "description": "Identificação de sintomas da hérnia umbilical em adultos, sinais de alerta para complicações e quando a condição se torna perigosa.",
-        "tags": ["Artigos — Hérnias"],
+        "tags": [
+          "Artigos — Hérnias"
+        ],
         "responses": {
           "200": {
             "description": "Artigo sobre sintomas da hérnia umbilical"
@@ -194,7 +219,9 @@
       "get": {
         "summary": "Hérnia umbilical: perigos e complicações",
         "description": "Riscos de complicações graves da hérnia umbilical sem tratamento, incluindo estrangulamento, encarceramento e o que pode acontecer se a hérnia estourar.",
-        "tags": ["Artigos — Hérnias"],
+        "tags": [
+          "Artigos — Hérnias"
+        ],
         "responses": {
           "200": {
             "description": "Artigo sobre perigos da hérnia umbilical"
@@ -206,7 +233,9 @@
       "get": {
         "summary": "Cirurgia de hérnia umbilical: quando operar e recuperação",
         "description": "Indicações cirúrgicas para hérnia umbilical, tipos de procedimento, tempo de recuperação, riscos e cuidados pós-operatórios.",
-        "tags": ["Artigos — Hérnias"],
+        "tags": [
+          "Artigos — Hérnias"
+        ],
         "responses": {
           "200": {
             "description": "Artigo sobre cirurgia de hérnia umbilical"
@@ -218,7 +247,9 @@
       "get": {
         "summary": "Hérnia umbilical: tratamento sem cirurgia",
         "description": "Quando a cirurgia é indispensável para hérnia umbilical, alternativas para conviver com a hérnia e orientações médicas.",
-        "tags": ["Artigos — Hérnias"],
+        "tags": [
+          "Artigos — Hérnias"
+        ],
         "responses": {
           "200": {
             "description": "Artigo sobre tratamento não cirúrgico da hérnia umbilical"
@@ -230,7 +261,9 @@
       "get": {
         "summary": "Vesícula biliar e cálculos biliares",
         "description": "Guia completo sobre a vesícula biliar, formação de cálculos biliares (pedras na vesícula), sintomas, diagnóstico e indicações de cirurgia (colecistectomia).",
-        "tags": ["Artigos — Vesícula biliar"],
+        "tags": [
+          "Artigos — Vesícula biliar"
+        ],
         "responses": {
           "200": {
             "description": "Artigo sobre vesícula biliar e cálculos biliares"
@@ -242,7 +275,9 @@
       "get": {
         "summary": "Sintomas de pedras na vesícula",
         "description": "Como identificar os sintomas de cálculos na vesícula biliar, tipos de dor, sinais de alerta e quando buscar atendimento médico de urgência.",
-        "tags": ["Artigos — Vesícula biliar"],
+        "tags": [
+          "Artigos — Vesícula biliar"
+        ],
         "responses": {
           "200": {
             "description": "Artigo sobre sintomas de pedras na vesícula"
@@ -254,7 +289,9 @@
       "get": {
         "summary": "Cirurgia de vesícula: riscos e segurança",
         "description": "Análise dos riscos da colecistectomia laparoscópica, taxa de complicações, medidas de segurança e o que esperar do procedimento.",
-        "tags": ["Artigos — Vesícula biliar"],
+        "tags": [
+          "Artigos — Vesícula biliar"
+        ],
         "responses": {
           "200": {
             "description": "Artigo sobre riscos da cirurgia de vesícula"
@@ -266,7 +303,9 @@
       "get": {
         "summary": "Cirurgia de vesícula: recuperação e repouso",
         "description": "Guia completo sobre o pós-operatório da cirurgia de vesícula, tempo de repouso, retorno ao trabalho, atividades físicas e cuidados alimentares.",
-        "tags": ["Artigos — Vesícula biliar"],
+        "tags": [
+          "Artigos — Vesícula biliar"
+        ],
         "responses": {
           "200": {
             "description": "Artigo sobre recuperação da cirurgia de vesícula"
@@ -278,7 +317,9 @@
       "get": {
         "summary": "Vida sem vesícula: cuidados e qualidade de vida",
         "description": "O que esperar após a remoção da vesícula biliar, adaptações alimentares, digestão sem vesícula e qualidade de vida a longo prazo.",
-        "tags": ["Artigos — Vesícula biliar"],
+        "tags": [
+          "Artigos — Vesícula biliar"
+        ],
         "responses": {
           "200": {
             "description": "Artigo sobre vida sem vesícula"
@@ -290,7 +331,9 @@
       "get": {
         "summary": "Riscos da cirurgia laparoscópica",
         "description": "Informações sobre riscos, benefícios e segurança da cirurgia laparoscópica (cirurgia minimamente invasiva por vídeo).",
-        "tags": ["Artigos — Cirurgia geral"],
+        "tags": [
+          "Artigos — Cirurgia geral"
+        ],
         "responses": {
           "200": {
             "description": "Artigo sobre riscos da cirurgia laparoscópica"
@@ -302,7 +345,9 @@
       "get": {
         "summary": "Cirurgia robótica na cirurgia geral",
         "description": "Como a cirurgia robótica está sendo aplicada em procedimentos de cirurgia geral, vantagens, indicações e diferenças em relação à laparoscopia convencional.",
-        "tags": ["Artigos — Cirurgia geral"],
+        "tags": [
+          "Artigos — Cirurgia geral"
+        ],
         "responses": {
           "200": {
             "description": "Artigo sobre cirurgia robótica"
@@ -314,7 +359,9 @@
       "get": {
         "summary": "Medo de cirurgia: como lidar com a ansiedade",
         "description": "Orientações sobre como lidar com o medo e a ansiedade antes de uma cirurgia, técnicas de preparação emocional e o que esperar do processo.",
-        "tags": ["Artigos — Cirurgia geral"],
+        "tags": [
+          "Artigos — Cirurgia geral"
+        ],
         "responses": {
           "200": {
             "description": "Artigo sobre medo de cirurgia"
