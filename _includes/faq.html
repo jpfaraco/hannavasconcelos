@@ -1,19 +1,19 @@
 {% if include.topic %}
 {% assign topic_faqs = site.faqs | where: "topic", include.topic | sort: 'order' %}
 {% if topic_faqs.size > 0 %}
-<section id="faq" class="section" itemscope itemtype="https://schema.org/FAQPage">
+<section id="faq" class="section">
   <div class="container">
     <div class="subtitle">
       <h3>Perguntas frequentes</h3>
     </div>
     {% for faq in topic_faqs %}
-    <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <div>
       <div class="collapsible">
-        <h4 itemprop="name">{{ faq.question }}</h4>
+        <h4>{{ faq.question }}</h4>
         <div class="chevron"></div>
       </div>
-      <div class="content" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-        <div itemprop="text">
+      <div class="content">
+        <div>
           {{ faq.content }}
         </div>
       </div>
