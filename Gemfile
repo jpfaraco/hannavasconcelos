@@ -39,3 +39,5 @@ gem "webrick", "~> 1.7"
 gem 'liquid', '~> 4.0', '>= 4.0.4'
 
 gem 'jekyll-sitemap'
+
+gem "json", ">= 2.19.2"
