@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Sintomas de pedras na vesícula"
+title: "Pedra na vesícula: sintomas, dor e como identificar os sinais"
 subtitle: "Como identificar os sinais e evitar cirurgias de emergência"
+description: "A dor na barriga depois de comer gordura pode ser sinal de pedra na vesícula. Saiba quais são os sintomas típicos, como diferenciar e quando procurar um médico."
 date: 2025-10-05 16:28:53 -0300
 categories: blog vesicula
 ---

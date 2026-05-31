@@ -2,6 +2,7 @@
 layout: post
 title: "Cirurgia de vesícula é perigosa? Riscos, segurança e o que esperar"
 subtitle: "Entenda os riscos reais, as taxas de sucesso e como o procedimento é realizado com segurança"
+description: "A cirurgia de vesícula tem riscos? Entenda as complicações possíveis, as taxas de sucesso e por que a laparoscopia tornou o procedimento muito mais seguro."
 date: 2025-09-27 11:07:44 -0300
 categories: blog vesicula
 ---

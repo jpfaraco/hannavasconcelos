@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Hérnia inguinal: sintomas, dor e como identificar"
+title: "Hérnia inguinal: sintomas, onde dói e como saber se você tem"
 subtitle: "Aprenda a reconhecer os sinais e quando procurar atendimento médico"
+description: "A dor na virilha pode ser hérnia inguinal? Saiba onde a dor aparece, quais são os sintomas típicos, o que piora o desconforto e quando consultar um cirurgião."
 date: 2025-10-17 15:33:19 -0300
 categories: blog hernia
 ---

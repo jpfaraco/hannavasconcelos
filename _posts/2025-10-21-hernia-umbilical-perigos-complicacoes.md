@@ -2,6 +2,7 @@
 layout: post
 title: "Hérnia umbilical: perigos, complicações e o que pode acontecer se estourar"
 subtitle: "Entenda os riscos reais, o que significa hérnia estourada e quando buscar ajuda urgente"
+description: "A hérnia umbilical pode se tornar perigosa? Saiba o que significa hérnia estrangulada, quais os riscos reais de complicações e quando buscar cirurgia urgente."
 date: 2025-09-26 16:54:13 -0300
 categories: blog hernia
 ---

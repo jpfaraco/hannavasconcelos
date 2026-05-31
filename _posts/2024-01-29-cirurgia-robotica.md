@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Cirurgia robótica na cirurgia geral"
-subtitle: "Inovação e desafios"
+title: "Cirurgia robótica: o que é, vantagens e quando é indicada"
+subtitle: "Inovação e desafios da cirurgia minimamente invasiva assistida por robô"
+description: "A cirurgia robótica oferece mais precisão e recuperação mais rápida. Saiba como funciona e quando é indicada em relação à laparoscopia convencional."
 date: 2025-10-08 14:23:17 -0300
 categories: blog robotica
 ---

@@ -1,6 +1,7 @@
 ---
 layout: page
-title: "Vesícula biliar e cálculos biliares"
+title: "Pedra (cálculo) na vesícula: sintomas, tratamento e cirurgia"
+description: "Pedra na vesícula causa dor e náusea. Saiba como é diagnosticada, quando a cirurgia é necessária e como é o atendimento com a Dra. Hanna Vasconcelos."
 date: 2024-04-10
 categories: especialidade
 ---

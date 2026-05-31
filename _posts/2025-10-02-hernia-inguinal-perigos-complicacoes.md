@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Hérnia inguinal: perigos, complicações e quando se torna grave"
+title: "Hérnia inguinal é perigosa? Complicações e sinais de alerta"
 subtitle: "Entenda os riscos reais e quando a hérnia inguinal requer atenção imediata"
+description: "A hérnia inguinal é perigosa? Na maioria dos casos não — mas pode complicar. Saiba quais são os sinais de emergência e quando a cirurgia se torna urgente."
 date: 2025-10-02 13:44:56 -0300
 categories: blog hernia
 ---

@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Medo de cirurgia"
-subtitle: "Desmistificando o processo cirúrgico: Uma jornada passo-a-passo"
+title: "Medo de cirurgia: como superar a ansiedade e o que esperar"
+subtitle: "Desmistificando o processo cirúrgico: uma jornada passo a passo"
+description: "Sentir medo de cirurgia é normal. Entenda como funciona o processo cirúrgico passo a passo e como reduzir a ansiedade antes do procedimento."
 date: 2025-10-15 11:45:32 -0300
 categories: blog cirurgia
 ---

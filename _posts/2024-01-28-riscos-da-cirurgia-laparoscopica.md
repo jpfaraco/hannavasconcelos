@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Riscos da cirurgia laparoscópica"
+title: "Cirurgia laparoscópica é perigosa? Riscos reais e segurança"
 subtitle: "Riscos, recuperação e alternativas à cirurgia minimamente invasiva"
+description: "A laparoscopia tem riscos como toda cirurgia — mas são baixos. Saiba quais as complicações possíveis e o que esperar durante a recuperação."
 date: 2025-09-30 08:41:22 -0300
 categories: blog laparoscopia
 ---

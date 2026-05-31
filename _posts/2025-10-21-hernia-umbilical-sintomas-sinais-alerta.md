@@ -2,6 +2,7 @@
 layout: post
 title: "Hérnia umbilical: sintomas, sinais de alerta e quando é perigosa"
 subtitle: "Aprenda a reconhecer os sintomas e identificar quando a hérnia umbilical requer atenção médica urgente"
+description: "Como identificar uma hérnia umbilical? Conheça os sintomas, a aparência típica e os sinais que indicam necessidade de atenção médica urgente."
 date: 2025-10-12 08:17:25 -0300
 categories: blog hernia
 ---

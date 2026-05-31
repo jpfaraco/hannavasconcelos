@@ -1,6 +1,7 @@
 ---
 layout: page
-title: "Hérnias Inguinal e Umbilical: causas, sintomas e tratamento"
+title: "Hérnias inguinal e umbilical: causas, sintomas e tratamento"
+description: "Causas, sintomas e tratamento das hérnias inguinal e umbilical. Atendimento especializado pela Dra. Hanna Vasconcelos em Botafogo (RJ) e Niterói."
 date: 2025-05-24
 categories: especialidade
 ---
