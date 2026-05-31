@@ -28,7 +28,7 @@
   }
 
   .cta-post {
-    border-left: 4px solid $color-primary-400;
+    border-left: 6px solid $color-primary-400;
     background-color: $color-primary-25;
     margin: 2.5rem 0;
 
@@ -38,6 +38,7 @@
 
     .button {
       margin-top: 0.75rem;
+      text-decoration: none;
     }
   }
 
