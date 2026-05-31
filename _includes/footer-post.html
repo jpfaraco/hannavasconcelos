@@ -94,6 +94,18 @@
       });
     }
 
+    // Close menu when clicking outside the navbar
+    document.addEventListener("click", (event) => {
+      const $nav = document.getElementById("nav");
+      if ($nav && !$nav.contains(event.target)) {
+        document.querySelectorAll(".navbar-burger").forEach((burger) => {
+          burger.classList.remove("is-active");
+        });
+        const $navMenu = document.getElementById("navMenu");
+        if ($navMenu) $navMenu.classList.remove("is-active");
+      }
+    });
+
     // Function to create a slug from a string
     function createSlug(text) {
       return text.toString().toLowerCase()

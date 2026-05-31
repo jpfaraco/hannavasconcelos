@@ -57,11 +57,6 @@ nav {
   #navbar-cta {
     display: none;
   }
-
-  .container {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
 }
 
 #post #navbar-cta {
@@ -501,7 +496,16 @@ sup a.footnote {
   }
 }
 
-@media screen and (max-width: 1088px) {
+@include desktop {
+  .navbar > .container {
+    width: $desktop - 2 * $gap;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  nav .container {
+    padding-left: 1.5rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -516,6 +520,14 @@ sup a.footnote {
   nav {
     .logo {
       margin-left: 0;
+    }
+
+    .container .navbar-menu {
+      margin-left: -1.5rem;
+
+      .navbar-item {
+        padding-left: 1.5rem;
+      }
     }
   }
 
