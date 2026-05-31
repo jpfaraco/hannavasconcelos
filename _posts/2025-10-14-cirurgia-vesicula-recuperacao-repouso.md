@@ -132,6 +132,14 @@ Procure atendimento médico imediatamente se apresentar:
 - **Distensão abdominal** importante
 - **Falta de ar** ou dor no peito
 
+{% include cta-consulta.html
+  heading="Dúvidas sobre a recuperação após a cirurgia de vesícula?"
+  text="Cada caso é diferente. A Dra. Hanna Vasconcelos acompanha seus pacientes no pós-operatório e atende em Botafogo e Niterói."
+  url="/vesicula/"
+  cta_label="Consultar a Dra. Hanna"
+  location="cirurgia-vesicula-recuperacao-post"
+%}
+
 ### Medicações no pós-operatório
 
 Siga rigorosamente as orientações médicas sobre medicações:

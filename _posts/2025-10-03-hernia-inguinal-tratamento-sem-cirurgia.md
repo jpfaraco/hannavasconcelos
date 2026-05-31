@@ -331,6 +331,14 @@ Esta tabela resume a comparação baseada em evidências:
 | Qualidade de vida              | Melhora significativa      | Sintomas persistem ou pioram                |
 | Necessidade futura de cirurgia | Não (exceto recidiva)      | 70% em 7 anos                               |
 
+{% include cta-consulta.html
+  heading="Pronto para resolver definitivamente a hérnia inguinal?"
+  text="A cirurgia eletiva tem 95% de sucesso e mortalidade menor que 0,1%. A Dra. Hanna Vasconcelos atende em Botafogo e Niterói — agende e planeje o procedimento com segurança."
+  url="/hernia-inguinal/"
+  cta_label="Agendar consulta"
+  location="hernia-tratamento-post"
+%}
+
 ## Casos especiais
 
 ### Pacientes com alto risco cirúrgico

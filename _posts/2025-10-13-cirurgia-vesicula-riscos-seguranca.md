@@ -226,6 +226,14 @@ A cirurgia é recomendada quando:
 
 Na grande maioria desses casos, os benefícios da cirurgia superam amplamente os riscos.
 
+{% include cta-consulta.html
+  heading="Tem pedras na vesícula e está em dúvida sobre operar?"
+  text="A cirurgia laparoscópica de vesícula é segura, com mortalidade menor que 0,1% em cirurgias eletivas. A Dra. Hanna Vasconcelos atende em Botafogo e Niterói."
+  url="/vesicula/"
+  cta_label="Agendar consulta"
+  location="cirurgia-vesicula-riscos-post"
+%}
+
 ## Mitos versus realidade
 
 ### Mito: "Cirurgia de vesícula é muito arriscada"

@@ -320,6 +320,14 @@ O médico irá:
 - **Distensão abdominal** importante
 - **Ausência de evacuação ou gases**
 
+{% include cta-consulta.html
+  heading="Identificou sintomas de hérnia umbilical? Agende uma avaliação."
+  text="O diagnóstico é simples e o tratamento definitivo é cirúrgico. A Dra. Hanna Vasconcelos atende em Botafogo e Niterói."
+  url="/hernia-umbilical/"
+  cta_label="Agendar avaliação"
+  location="hernia-umbilical-sintomas-post"
+%}
+
 ## Prevenção: como evitar que uma hérnia umbilical se desenvolva?
 
 Embora nem todas as hérnias possam ser prevenidas, algumas medidas ajudam:

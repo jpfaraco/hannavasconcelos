@@ -52,6 +52,14 @@ O diagnóstico de pedras na vesícula geralmente é realizado através de exames
 
 Se você apresenta sintomas que podem ser atribuídos a pedras na vesícula, é fundamental procurar a orientação de um profissional de saúde. Discuta abertamente seus sintomas, histórico médico e quaisquer preocupações que você tenha.
 
+{% include cta-consulta.html
+  heading="Suspeita de pedras na vesícula? Consulte um especialista."
+  text="O diagnóstico é simples — uma ultrassonografia já confirma. A Dra. Hanna Vasconcelos é especialista em cirurgia de vesícula e atende em Botafogo e Niterói."
+  url="/vesicula/"
+  cta_label="Agendar avaliação"
+  location="sintomas-pedras-vesicula-post"
+%}
+
 ## Medidas preventivas e opções de tratamento inicial
 
 Embora nem todos os cálculos biliares possam ser prevenidos, algumas mudanças no estilo de vida podem reduzir o risco de formá-los:

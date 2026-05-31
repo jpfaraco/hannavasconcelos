@@ -364,6 +364,14 @@ Esta é uma pergunta fundamental que muitos pacientes fazem.
 
 **Melhor abordagem:** Consulte um cirurgião para avaliação individualizada do seu caso.
 
+{% include cta-consulta.html
+  heading="Pronto para avaliar a cirurgia de hérnia umbilical?"
+  text="A Dra. Hanna Vasconcelos é especialista em cirurgia laparoscópica de hérnia umbilical e atende em Botafogo e Niterói."
+  url="/hernia-umbilical/"
+  cta_label="Agendar consulta"
+  location="hernia-umbilical-cirurgia-post"
+%}
+
 ## Diferença entre cirurgia eletiva e de emergência
 
 | Aspecto                  | Cirurgia Eletiva             | Cirurgia de Emergência          |

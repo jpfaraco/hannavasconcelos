@@ -325,6 +325,14 @@ Esta tabela resume os dados baseados em evidências:
 | Qualidade de vida       | Melhora significativa      | Sintomas persistem/pioram              |
 | Risco futuro            | Mínimo (após cicatrização) | Contínuo enquanto hérnia existir       |
 
+{% include cta-consulta.html
+  heading="Hérnia umbilical preocupando? Não adie a avaliação."
+  text="Cirurgia eletiva é muito mais segura que uma emergência. A Dra. Hanna Vasconcelos atende em Botafogo e Niterói e pode avaliar o melhor momento para operar."
+  url="/hernia-umbilical/"
+  cta_label="Agendar avaliação"
+  location="hernia-umbilical-perigos-post"
+%}
+
 ## Fatores que aumentam o risco de complicações
 
 ### Características da hérnia

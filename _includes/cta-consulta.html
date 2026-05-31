@@ -1,0 +1,8 @@
+<div class="box cta-post">
+  <p><strong>{{ include.heading }}</strong></p>
+  {% if include.text %}<p>{{ include.text }}</p>{% endif %}
+  <a href="{{ include.url }}" class="button is-primary"
+    onclick="gtag('event', 'cta_click', { 'location': '{{ include.location }}' });">
+    {{ include.cta_label | default: "Agendar consulta" }} →
+  </a>
+</div>

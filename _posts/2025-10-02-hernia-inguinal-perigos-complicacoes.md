@@ -205,6 +205,14 @@ A mortalidade varia drasticamente:
 
 **Conclusão:** Operar de forma programada é **50 a 150 vezes mais seguro** do que aguardar uma complicação.
 
+{% include cta-consulta.html
+  heading="Hérnia inguinal sintomática? Não adie a avaliação."
+  text="Cirurgia eletiva é muito mais segura que uma emergência. A Dra. Hanna Vasconcelos atende em Botafogo e Niterói e pode ajudá-lo a planejar a cirurgia com tranquilidade."
+  url="/hernia-inguinal/"
+  cta_label="Agendar avaliação"
+  location="hernia-perigos-post"
+%}
+
 ## Fatores que aumentam o risco de complicações
 
 Alguns fatores elevam o risco de que uma hérnia inguinal desenvolva complicações:

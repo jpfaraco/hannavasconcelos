@@ -234,6 +234,14 @@ Procure avaliação médica se apresentar:
 - **Fezes muito claras ou gordurosas** persistentes
 - **Intolerância alimentar grave** que impacta sua qualidade de vida
 
+{% include cta-consulta.html
+  heading="Está com sintomas persistentes após a cirurgia de vesícula?"
+  text="Diarreia, dor abdominal recorrente ou intolerância alimentar que não melhoram merecem avaliação especializada. A Dra. Hanna Vasconcelos atende em Botafogo e Niterói."
+  url="/vesicula/"
+  cta_label="Agendar consulta"
+  location="vida-sem-vesicula-post"
+%}
+
 ### Exames de acompanhamento
 
 Na maioria dos casos, não são necessários exames de rotina específicos após a cirurgia. O acompanhamento segue as recomendações gerais para a população, incluindo:

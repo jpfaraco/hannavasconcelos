@@ -441,6 +441,14 @@ Se você está aguardando cirurgia eletiva:
 - Vida sem restrições permanentes
 - Taxa de sucesso > 95%
 
+{% include cta-consulta.html
+  heading="Cansado de conviver com restrições? Agende uma avaliação cirúrgica."
+  text="Operar de forma eletiva garante recuperação mais tranquila e elimina a hérnia definitivamente. A Dra. Hanna Vasconcelos atende em Botafogo e Niterói."
+  url="/hernia-inguinal/"
+  cta_label="Agendar avaliação"
+  location="hernia-convivendo-post"
+%}
+
 ## Mitos e verdades sobre conviver com hérnia
 
 ### Mito: "Preciso ficar em repouso absoluto"

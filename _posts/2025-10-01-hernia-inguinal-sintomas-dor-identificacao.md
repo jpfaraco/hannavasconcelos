@@ -246,6 +246,14 @@ Existem dois tipos principais de hérnia inguinal, mas essa distinção geralmen
 - **Febre** associada à hérnia
 - **Distensão abdominal** importante
 
+{% include cta-consulta.html
+  heading="Identificou esses sintomas? O próximo passo é uma avaliação médica."
+  text="O diagnóstico é principalmente clínico — o exame físico do cirurgião geralmente basta. A Dra. Hanna Vasconcelos atende em Botafogo e Niterói."
+  url="/hernia-inguinal/"
+  cta_label="Agendar avaliação"
+  location="hernia-sintomas-post"
+%}
+
 ## Mitos e verdades sobre sintomas de hérnia inguinal
 
 ### Mito: "Hérnia inguinal sempre dói muito"

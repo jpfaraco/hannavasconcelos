@@ -119,4 +119,10 @@ Você deve buscar avaliação médica se:
 
 A hérnia inguinal tem tratamento definitivo, com alta taxa de sucesso e baixo risco quando realizada em caráter eletivo. Quanto antes for avaliada, mais opções o cirurgião terá para planejar o melhor momento e a melhor abordagem para o seu caso.
 
-Se você está na região do Rio de Janeiro ou Niterói e quer uma avaliação presencial, eu atendo em Botafogo e Niterói e sou especialista em cirurgia de hérnia inguinal por videolaparoscopia. [Saiba mais sobre o atendimento e agende uma consulta.]({% link hernia-inguinal.md %})
+{% include cta-consulta.html
+  heading="Está na região do Rio de Janeiro ou Niterói?"
+  text="A Dra. Hanna Vasconcelos é especialista em cirurgia de hérnia inguinal por videolaparoscopia e atende em Botafogo e Niterói. Agende uma avaliação e planeje o tratamento com segurança."
+  url="/hernia-inguinal/"
+  cta_label="Agendar consulta"
+  location="hernia-inguinal-hub-post"
+%}

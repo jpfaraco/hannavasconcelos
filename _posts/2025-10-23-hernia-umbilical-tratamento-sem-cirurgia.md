@@ -367,6 +367,14 @@ Mesmo que você prefira evitar cirurgia, alguns sinais indicam que **não é mai
 
 **Nestas situações, vá ao pronto-socorro imediatamente.**
 
+{% include cta-consulta.html
+  heading="Está adiando a cirurgia de hérnia umbilical?"
+  text="Operar de forma eletiva é mais seguro, com recuperação mais previsível. A Dra. Hanna Vasconcelos atende em Botafogo e Niterói."
+  url="/hernia-umbilical/"
+  cta_label="Agendar avaliação"
+  location="hernia-umbilical-tratamento-post"
+%}
+
 ## Mitos sobre tratamento sem cirurgia
 
 ### Mito: "Se eu fortalecer o abdômen, a hérnia fecha"
