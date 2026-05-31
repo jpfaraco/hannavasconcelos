@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Riscos da cirurgia laparoscópica"
+subtitle: "Riscos, recuperação e alternativas à cirurgia minimamente invasiva"
 date: 2025-09-30 08:41:22 -0300
 categories: blog laparoscopia
 ---
