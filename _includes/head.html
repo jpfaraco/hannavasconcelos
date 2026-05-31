@@ -4,14 +4,14 @@
   {% assign page_description = page.description | default: page.subtitle | default: "Dra. Hanna Vasconcelos é cirurgiã geral com foco no aparelho digestivo e especialista em vesícula, vias biliares, fígado, pâncreas e hérnias da parede abdominal. Atendimento no Rio de Janeiro e Niterói. Agende sua consulta por WhatsApp." %}
   {% assign page_title = page.title | default: site.title %}
   {% assign page_url = page.url | absolute_url %}
-  <meta name="description" content="{{ page_description | strip_html | truncate: 160 }}">
+  <meta name="description" content="{{ page_description | strip_html }}">
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link rel="canonical" href="{{ page_url }}" />
 
   <meta property="og:title" content="{{ page_title }} | {{ site.title }}" />
   <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}" />
   <meta property="og:locale" content="pt_BR" />
-  <meta property="og:description" content="{{ page_description | strip_html | truncate: 160 }}" />
+  <meta property="og:description" content="{{ page_description | strip_html }}" />
   <meta property="og:url" content="{{ page_url }}" />
   <meta property="og:image" content="https://hannavasconcelos.com.br/assets/images/hero-thumb.png" />
   {% if page.layout == 'post' %}
