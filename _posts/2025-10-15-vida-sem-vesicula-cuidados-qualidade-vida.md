@@ -1,5 +1,6 @@
 ---
 layout: post
+popular: true
 title: "Vida sem vesícula: o que muda, cuidados e qualidade de vida"
 subtitle: "Como o corpo funciona após a retirada da vesícula e o que esperar no longo prazo"
 description: "Tirar a vesícula afeta a expectativa de vida? Saiba o que realmente muda no organismo, quais sintomas são normais e como é a qualidade de vida após a cirurgia."
