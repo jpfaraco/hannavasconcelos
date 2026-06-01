@@ -44,7 +44,7 @@ Cerca de **10% a 15% dos pacientes** apresentam algum tipo de sintoma digestivo 
 - **Flatulência**: aumento de gases intestinais
 - **Refluxo biliar**: raramente, pode ocorrer refluxo de bile para o estômago
 
-A boa notícia é que **a maioria desses sintomas é temporária** e melhora significativamente nos primeiros 3 a 6 meses após a cirurgia, à medida que o corpo se adapta.
+A boa notícia é que **a maioria desses sintomas é temporária** e melhora significativamente nos primeiros 3 a 6 meses após a cirurgia, à medida que o corpo se adapta. Sintomas que persistem além desse período merecem investigação — veja as causas possíveis e o que fazer em: [Síndrome pós-colecistectomia: sintomas, causas e o que fazer]({% link _posts/2026-05-31-sindrome-pos-colecistectomia.md %})
 
 ### Diarreia após a cirurgia
 
