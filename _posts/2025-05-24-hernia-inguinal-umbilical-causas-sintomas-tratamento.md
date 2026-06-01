@@ -29,6 +29,8 @@ Nas hérnias umbilicais, o defeito ocorre na cicatriz umbilical. Em adultos, est
 
 A manifestação típica é a **protuberância palpável**, associada ou não a desconforto que piora com tosse ou esforço. Dor intensa, náuseas ou impossibilidade de reduzir a hérnia sugerem encarceramento ou estrangulamento — que é uma urgência cirúrgica.
 
+→ Entenda os sintomas em detalhe: [Hérnia inguinal: o que é, causas, riscos e como tratar]({% link _posts/2026-05-31-hernia-inguinal.md %}) · [Hérnia umbilical: o que é, causas, riscos e como tratar]({% link _posts/2026-05-31-hernia-umbilical.md %})
+
 ## Diagnóstico
 
 O diagnóstico é principalmente clínico. Ultrassonografia pode ser útil em casos duvidosos, sobretudo em pacientes obesos ou com hérnia pequena. A tomografia computadorizada é reservada para grandes defeitos ou dúvidas sobre complicações relacionadas à hérnia.
@@ -51,6 +53,8 @@ A maioria dos reparos é feita com **tela sintética (mesh)**, seja por via aber
 - Inguinal aberta e umbilical: anestesia local com sedação ou raquianestesia.
 - Inguinal laparoscópica: geralmente anestesia geral.
 
+→ Quando e como operar: [Hérnia inguinal: tratamento sem cirurgia — quando operar é necessário]({% link _posts/2025-10-03-hernia-inguinal-tratamento-sem-cirurgia.md %}) · [Cirurgia de hérnia umbilical: quando operar, recuperação e riscos]({% link _posts/2025-10-22-hernia-umbilical-cirurgia-quando-operar.md %})
+
 ## Complicações se não tratada
 
 O encarceramento impede a redução do conteúdo herniário; o estrangulamento compromete a vascularização, podendo levar à necrose intestinal. Estudos clássicos demonstraram **probabilidade acumulada de estrangulamento de 4,5 % em dois anos** nas hérnias inguinais não tratadas[^strang1991]. Mesmo que a chance absoluta seja baixa, a mortalidade quando ocorre isquemia intestinal pode superar 7 % em idosos[^strang2023].
@@ -66,6 +70,14 @@ Manter peso adequado, tratar constipação e cessar tabagismo ajudam a reduzir a
 ## Conclusão
 
 As hérnias inguinais e umbilicais são frequentes e curáveis. A avaliação individualizada, aliada às diretrizes atualizadas, permite indicar o momento ideal da cirurgia e selecionar a melhor técnica, minimizando complicações e recidivas.
+
+{% include cta-consulta.html
+  heading="Quer avaliar sua hérnia com uma especialista?"
+  text="A Dra. Hanna Vasconcelos atende hérnias inguinais e umbilicais em Botafogo e Niterói. Agende uma consulta e planeje o tratamento com base nas diretrizes mais recentes."
+  url="/hernia/"
+  cta_label="Agendar consulta"
+  location="hernia-especialidade-page"
+%}
 
 ## Referências
 

@@ -6,7 +6,7 @@ date: 2024-04-10
 categories: especialidade
 ---
 
-A vesícula biliar é um pequeno órgão, mas desempenha um papel crucial no nosso sistema digestivo, ajudando na digestão de gorduras. No entanto, quando surgem problemas como os cálculos biliares, podem causar desconforto significativo e necessitar de atenção médica. Neste artigo, vamos explorar o que são a vesícula biliar e os cálculos biliares, os sintomas a observar e como são diagnosticados.
+Pedra na vesícula — ou cálculo biliar — é uma das condições cirúrgicas mais comuns no Brasil, afetando cerca de 15% da população adulta. Na maioria das vezes não causa sintomas por anos, mas quando a dor aparece, costuma ser intensa e recorrente. Esta página explica o que são os cálculos biliares, quando é preciso operar e como é o atendimento especializado.
 
 ## O que é a vesícula biliar?
 
@@ -44,6 +44,8 @@ Os sintomas do cálculo na vesícula biliar podem ser assintomáticos variar de 
 
 É importante ressaltar que nem todas as pessoas com cálculos biliares apresentam sintomas. Além disso, os sintomas podem ser semelhantes aos de outras condições médicas, portanto, é essencial consultar um médico para um diagnóstico adequado.
 
+→ Entenda os sintomas em detalhe: [Pedra na vesícula: sintomas, dor e como identificar os sinais]({% link _posts/2025-10-05-sintomas-pedras-vesicula.md %})
+
 ## Diagnóstico dos cálculos biliares
 
 O diagnóstico de cálculos biliares geralmente envolve um exame físico e testes de imagem, como ultrassonografia ou tomografia computadorizada. Esses exames ajudam a visualizar a presença de cálculos e avaliar a saúde geral da vesícula biliar.
@@ -72,6 +74,8 @@ Nem todos os casos de cálculos biliares exigem tratamento cirúrgico imediato. 
 entre 17 % e 20 % podem ter novo episódio de colecistite, coledocolitíase ou
 pancreatite antes da operação tardia[^vanbaal-2012].
 
+→ A cirurgia de vesícula é segura? Saiba mais: [A cirurgia de vesícula tem riscos? Entenda as complicações possíveis]({% link _posts/2025-10-13-cirurgia-vesicula-riscos-seguranca.md %})
+
 ## Descobri que tenho cálculos na vesícula, mas não tenho sintomas. Tenho que operar?
 
 A decisão de tratar casos assintomáticos de cálculos na vesícula depende de vários fatores, incluindo o tamanho e o número dos cálculos, bem como o histórico clínico do paciente. Geralmente, os cálculos na vesícula que não causam sintomas não são tratados de imediato, mas em alguns há indicação de realizar a cirurgia para retirada da vesícula (colecistectomia)[^easl-2016]:
@@ -85,9 +89,23 @@ A decisão de tratar casos assintomáticos de cálculos na vesícula depende de 
 
 Em resumo, a abordagem terapêutica dos cálculos na vesícula biliar assintomática é individualizada e compartilhada, levando em consideração riscos e benefícios, e a decisão de tratamento deve ser feita sempre em conjunto entre o paciente e o médico.
 
+## Como é a vida após a cirurgia?
+
+A maioria dos pacientes tem excelente qualidade de vida após a retirada da vesícula. O corpo se adapta ao fluxo contínuo de bile em semanas a meses. Uma pequena parcela pode apresentar sintomas persistentes — conhecida como síndrome pós-colecistectomia — que merece investigação especializada.
+
+→ Veja o que muda: [Vida sem vesícula: o que muda, cuidados e qualidade de vida]({% link _posts/2025-10-15-vida-sem-vesicula-cuidados-qualidade-vida.md %}) · [Síndrome pós-colecistectomia: sintomas, causas e o que fazer]({% link _posts/2026-05-31-sindrome-pos-colecistectomia.md %})
+
 ## Conclusão
 
-A vesícula biliar desempenha um papel importante na digestão, mas os cálculos biliares podem causar problemas significativos se não forem tratados. Reconhecer os sintomas e procurar avaliação médica pode ajudar a evitar complicações futuras. Se você tiver sintomas ou preocupações relacionadas a cálculos biliares, entre em contato com um médico para obter orientação e tratamento adequados.
+Cálculos biliares são frequentes e têm tratamento definitivo. A cirurgia laparoscópica de vesícula é segura, com mortalidade menor que 0,1% em cirurgias eletivas e alta hospitalar geralmente no mesmo dia. A avaliação individualizada com um especialista em cirurgia digestiva permite decidir o momento ideal para operar e planejar o procedimento com segurança.
+
+{% include cta-consulta.html
+  heading="Descobriu pedras na vesícula? Agende uma avaliação."
+  text="A Dra. Hanna Vasconcelos é especialista em cirurgia de vesícula por videolaparoscopia e atende em Botafogo e Niterói."
+  url="/vesicula/"
+  cta_label="Agendar consulta"
+  location="vesicula-especialidade-page"
+%}
 
 ## Referências
 
