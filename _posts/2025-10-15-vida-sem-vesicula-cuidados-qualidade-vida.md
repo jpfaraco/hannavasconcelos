@@ -123,6 +123,8 @@ Provavelmente surge da confusão entre:
 
 ## Quem retirou a vesícula tem mais dificuldade para emagrecer?
 
+![Quem retirou a vesícula tem mais dificuldade para emagrecer?]({{ site.baseurl }}/assets/images/posts/infografico-vesicula-dificuldade-emagrecer.webp "Quem retirou a vesícula tem mais dificuldade para emagrecer?")
+
 Não necessariamente. Esta é outra dúvida muito comum, mas os estudos mostram um cenário mais complexo:
 
 ### O que dizem as pesquisas?
