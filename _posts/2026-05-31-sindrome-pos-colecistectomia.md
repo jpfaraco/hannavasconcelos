@@ -13,7 +13,7 @@ Você retirou a vesícula e esperava ficar livre dos sintomas — mas ainda sent
 
 Síndrome pós-colecistectomia é o termo usado para descrever **sintomas persistentes ou novos que surgem após a remoção cirúrgica da vesícula biliar** (colecistectomia). Não é uma doença única — é um conjunto de manifestações que podem ter origens diferentes.
 
-Estima-se que entre **10% e 40% dos pacientes** experimentem algum sintoma após a cirurgia de vesícula. A grande maioria apresenta sintomas leves e transitórios que desaparecem nos primeiros 3 a 6 meses. Uma parcela menor, porém, tem sintomas persistentes que requerem investigação.
+Estima-se que entre **10% e 40% dos pacientes** experimentem algum sintoma após a cirurgia de vesícula. A grande maioria apresenta sintomas leves e transitórios que desaparecem nos primeiros 3 a 6 meses. Uma parcela menor, porém, tem sintomas persistentes que requerem investigação. [^jaunoo-2010]
 
 É importante entender: a síndrome não significa que a cirurgia foi mal feita. Na maioria dos casos, os sintomas têm causas identificáveis e tratáveis.
 
@@ -56,18 +56,11 @@ A síndrome pós-colecistectomia pode ter causas relacionadas à cirurgia ou cau
 - **Diagnóstico**: exames de imagem (colangiorressonância, ecoendoscopia)
 - **Tratamento**: procedimento endoscópico (CPRE) para remover o cálculo
 
-**2. Lesão da via biliar**
-
-Complicação rara da cirurgia, mas que pode causar sintomas persistentes.
-
-- **Quando suspeitar**: dor intensa, icterícia e febre logo após a cirurgia
-- Requer avaliação especializada urgente
-
-**3. Coto cístico longo**
+**2. Coto cístico longo**
 
 Raramente, uma parte do ducto cístico que fica após a cirurgia pode causar inflamação ou acumular cálculos.
 
-**4. Disfunção do esfíncter de Oddi**
+**3. Disfunção do esfíncter de Oddi**
 
 O esfíncter de Oddi é a válvula que controla o fluxo de bile e suco pancreático para o intestino. Após a remoção da vesícula, ele pode apresentar espasmos ou disfunção, causando dor similar à cólica biliar.
 
@@ -97,7 +90,7 @@ Pode coexistir com doença das vias biliares e causar sintomas persistentes.
 
 **Diarreia por ácidos biliares**
 
-O fluxo contínuo de bile para o intestino (sem o reservatório da vesícula) pode ter efeito laxativo em algumas pessoas. É uma das causas mais comuns de diarreia crônica após a colecistectomia.
+O fluxo contínuo de bile para o intestino (sem o reservatório da vesícula) pode ter efeito laxativo em algumas pessoas. **É uma das causas mais comuns de diarreia crônica após a colecistectomia.**
 
 - **Tratamento**: responde bem a ajustes na dieta e, quando necessário, a medicamentos que se ligam aos ácidos biliares (colestiramina)
 
@@ -110,7 +103,7 @@ Procure atendimento de emergência imediatamente se apresentar:
 - **Icterícia progressiva** (amarelamento crescente da pele ou olhos)
 - **Vômitos persistentes** com impossibilidade de se alimentar
 
-Esses sinais podem indicar cálculo no ducto biliar com complicação — condição que requer tratamento urgente.
+Esses sinais podem indicar **cálculo no ducto biliar com complicação** — condição que requer tratamento urgente.
 
 ## Como é feito o diagnóstico?
 
@@ -125,7 +118,7 @@ O diagnóstico da síndrome pós-colecistectomia envolve:
 
 ## O que fazer se você tem sintomas persistentes?
 
-O primeiro passo é **não ignorar os sintomas** e buscar avaliação médica. Muitas pessoas aceitam o desconforto achando que "é normal" após a cirurgia — mas não é. Sintomas que persistem por mais de 6 semanas ou que são intensos merecem investigação.
+O primeiro passo é **não ignorar os sintomas** e buscar avaliação do cirurgião. Muitas pessoas aceitam o desconforto achando que "é normal" após a cirurgia — mas não é. Sintomas que persistem por mais de 6 semanas ou que são intensos merecem investigação.
 
 O cirurgião que realizou o procedimento ou um especialista em cirurgia digestiva pode coordenar a investigação. Em alguns casos, o gastroenterologista também faz parte da equipe.
 
@@ -138,3 +131,7 @@ Lembre-se: a causa mais grave — cálculo residual no ducto biliar — é trat�
   cta_label="Agendar consulta"
   location="sindrome-pos-colecistectomia-post"
 %}
+
+## Referências
+
+[^jaunoo-2010]: Jaunoo SS, Mohandas S, Almond LM. _Postcholecystectomy syndrome (PCS)._ **International Journal of Surgery, 2010**; 8(1):15–17.

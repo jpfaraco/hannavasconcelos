@@ -10,6 +10,8 @@ categories: blog hernia
 
 Uma das perguntas mais frequentes que pacientes com hérnia inguinal fazem é: **"É perigoso?"** A resposta não é simples: enquanto muitas hérnias podem ser acompanhadas sem urgência, outras representam riscos sérios à saúde. Se você [identificou os sintomas de hérnia inguinal]({% link _posts/2025-10-01-hernia-inguinal-sintomas-dor-identificacao.md %}), neste artigo vamos esclarecer os perigos reais, as complicações possíveis e quando a hérnia inguinal se torna uma emergência médica.
 
+![Hérnia inguinal]({{ site.baseurl }}/assets/images/posts/hernia-inguinal.webp "Hérnia inguinal")
+
 ## A hérnia inguinal é perigosa?
 
 A resposta depende de vários fatores. A hérnia inguinal em si **não é imediatamente perigosa** na maioria dos casos, mas **pode se tornar perigosa** se desenvolver complicações.
@@ -65,7 +67,7 @@ Vamos detalhar os principais riscos associados à hérnia inguinal:
 
 - Probabilidade acumulada de **4,5% em 2 anos** para hérnias não tratadas
 - Risco anual de estrangulamento: **0,2% a 2,7%**
-- Hérnias femorais têm risco maior (até 40% em alguns estudos)
+- Hérnias femorais têm risco maior (até 40% em alguns estudos) [^gallegos-1991]
 
 **Sintomas de alerta:**
 
@@ -152,7 +154,7 @@ Esta é uma dúvida crucial. A resposta depende do tipo de hérnia e dos sintoma
 
 Estudos demonstram que pacientes com hérnias sintomáticas que postergam a cirurgia têm:
 
-- **17% a 20% de chance** de desenvolver complicações graves (encarceramento, estrangulamento, obstrução)
+- **Risco significativo** de desenvolver complicações graves (encarceramento, estrangulamento, obstrução) [^herniasurge-2018]
 - **70% acabam operando** em 7 anos, muitas vezes em caráter de urgência
 - **Risco anual de encarceramento/estrangulamento**: 0,2% a 2,7%
 
@@ -302,7 +304,7 @@ Esta comparação ajuda a tomar decisões informadas:
 
 ### Riscos de não operar (hérnias sintomáticas)
 
-- **Complicações graves**: 17% a 20% antes da cirurgia eletiva
+- **Complicações graves**: risco significativo antes da cirurgia eletiva
 - **Risco anual de estrangulamento**: 0,2% a 2,7%
 - **Necessidade eventual de cirurgia**: 70% em 7 anos
 - **Cirurgia de emergência**: mortalidade 10 a 150 vezes maior
@@ -352,3 +354,9 @@ Se você tem hérnia inguinal sintomática, não adie a avaliação cirúrgica. 
 **Sinais de alarme:** dor intensa súbita, náuseas, vômitos, impossibilidade de reduzir a hérnia, febre ou vermelhidão são emergências médicas. Procure atendimento imediatamente.
 
 Agende uma consulta para avaliar seu caso e receber orientações personalizadas sobre o melhor momento para a cirurgia.
+
+## Referências
+
+[^gallegos-1991]: Gallegos NC, Dawson J, Jarvis M, Hobsley M. _Risk of strangulation in groin hernias._ **British Journal of Surgery, 1991**; 78(10):1171–1173.
+
+[^herniasurge-2018]: HerniaSurge Group. _International guidelines for groin hernia management._ **Hernia, 2018**; 22(1):1–165.

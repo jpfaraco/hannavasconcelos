@@ -212,7 +212,7 @@ Os dados científicos são claros: **realizar a cirurgia de forma programada é 
 | Tempo de internação | 1 dia            | 3 a 7 dias             |
 | Recuperação         | 2 a 4 semanas    | 4 a 8 semanas          |
 
-Estudos demonstram que pacientes com cálculos sintomáticos que postergam a cirurgia têm **17% a 20% de chance de ter complicações graves** (colecistite, coledocolitíase ou pancreatite) antes de realizar a cirurgia programada.
+Estudos demonstram que pacientes com cálculos sintomáticos que postergam a cirurgia têm **17% a 20% de chance de ter complicações graves** (colecistite, coledocolitíase ou pancreatite) antes de realizar a cirurgia programada.[^vanbaal-2012]
 
 ## Quando os benefícios superam os riscos?
 
@@ -261,3 +261,7 @@ O mais importante é entender que **adiar a cirurgia quando ela está indicada p
 Se você tem indicação de cirurgia de vesícula, converse abertamente com seu cirurgião sobre suas preocupações, seus riscos individuais e tire todas as suas dúvidas. Saiba mais sobre o [tempo de recuperação após a cirurgia]({% link _posts/2025-10-14-cirurgia-vesicula-recuperacao-repouso.md %}), [como será sua vida sem a vesícula]({% link _posts/2025-10-15-vida-sem-vesicula-cuidados-qualidade-vida.md %}), e se você tem receio, leia sobre [como lidar com o medo de cirurgia]({% link _posts/2024-02-17-medo-de-cirurgia.md %}).
 
 Agende uma consulta para avaliar seu caso de forma individualizada e receber todas as orientações necessárias para uma cirurgia segura e tranquila.
+
+## Referências
+
+[^vanbaal-2012]: van Baal MC et al. _Timing of cholecystectomy after mild biliary pancreatitis: a systematic review._ **2012**.

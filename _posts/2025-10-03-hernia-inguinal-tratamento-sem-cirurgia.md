@@ -10,6 +10,8 @@ categories: blog hernia
 
 Uma das perguntas mais frequentes de pacientes diagnosticados com hérnia inguinal é: **"É possível curar sem cirurgia?"** A resposta honesta e baseada em evidências científicas pode não ser o que muitos gostariam de ouvir, mas é fundamental para tomar decisões informadas sobre sua saúde. Se você [identificou os sintomas de hérnia inguinal]({% link _posts/2025-10-01-hernia-inguinal-sintomas-dor-identificacao.md %}) e está preocupado com [os perigos e complicações]({% link _posts/2025-10-02-hernia-inguinal-perigos-complicacoes.md %}), neste artigo vamos esclarecer o que funciona, o que não funciona e quando a cirurgia é realmente necessária.
 
+![Hérnia inguinal]({{ site.baseurl }}/assets/images/posts/hernia-inguinal.webp "Hérnia inguinal")
+
 ## É possível curar hérnia inguinal sem cirurgia?
 
 A resposta curta e direta: **Não.** A hérnia inguinal **não cicatriza espontaneamente** e não existe tratamento clínico (não cirúrgico) que cure a hérnia.
@@ -188,7 +190,7 @@ Se você tem **qualquer sintoma** relacionado à hérnia:
 
 **Recomendação:** Cirurgia eletiva é indicada.
 
-**Por quê?** Estudos mostram que **17% a 20%** dos pacientes que postergam a cirurgia têm complicações graves antes de operar eletivamente.
+**Por quê?** Estudos mostram que uma parcela relevante dos pacientes que postergam a cirurgia desenvolve complicações graves antes de operar eletivamente. [^herniasurge-2018]
 
 #### 2. Hérnias femorais
 
@@ -290,7 +292,7 @@ A resposta depende de vários fatores:
 
 **Não é recomendado** postergar:
 
-- Risco de complicações: 17% a 20%
+- Risco de complicações graves elevado
 - Cirurgia de emergência é 10 a 150 vezes mais arriscada
 - Qualidade de vida impactada
 
@@ -398,3 +400,9 @@ Se você tem hérnia inguinal sintomática, a recomendação é clara: **não ad
 Para hérnias assintomáticas em homens, a vigilância ativa pode ser discutida, mas requer [acompanhamento médico rigoroso e cuidados específicos]({% link _posts/2025-10-04-convivendo-hernia-inguinal-cuidados.md %}) e entendimento de que a maioria acabará necessitando cirurgia eventualmente.
 
 Agende uma consulta para avaliar seu caso individualmente, discutir opções de tratamento e, se indicado, planejar uma cirurgia segura e com ótimos resultados.
+
+## Referências
+
+[^herniasurge-2018]: HerniaSurge Group. _International guidelines for groin hernia management._ **Hernia, 2018**; 22(1):1–165.
+
+[^fitzgibbons-2013]: Fitzgibbons RJ Jr et al. _Long-term results of a randomized controlled trial of a nonoperative strategy (watchful waiting) for men with minimally symptomatic inguinal hernias._ **Annals of Surgery, 2013**; 258(3):508–515.

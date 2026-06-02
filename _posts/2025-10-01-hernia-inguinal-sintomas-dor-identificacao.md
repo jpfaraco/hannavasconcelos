@@ -14,6 +14,8 @@ A hérnia inguinal é uma das condições cirúrgicas mais comuns, afetando milh
 
 A hérnia inguinal ocorre quando uma parte do intestino ou tecido adiposo **protrui através de um ponto fraco** na musculatura da parede abdominal na região da virilha. Essa região, chamada de canal inguinal, é naturalmente mais vulnerável devido à sua anatomia.
 
+![Hérnia inguinal]({{ site.baseurl }}/assets/images/posts/hernia-inguinal.png "Hérnia inguinal")
+
 ### Por que a hérnia se forma?
 
 A formação da hérnia geralmente resulta de uma combinação de:

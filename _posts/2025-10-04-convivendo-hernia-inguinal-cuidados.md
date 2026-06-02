@@ -10,6 +10,8 @@ categories: blog hernia
 
 Receber o diagnóstico de hérnia inguinal gera muitas dúvidas sobre o dia a dia: **O que posso fazer? O que devo evitar? Posso trabalhar normalmente? E exercícios físicos?** Se você [identificou os sintomas]({% link _posts/2025-10-01-hernia-inguinal-sintomas-dor-identificacao.md %}) e sabe que [a cirurgia é a única cura definitiva]({% link _posts/2025-10-03-hernia-inguinal-tratamento-sem-cirurgia.md %}), neste artigo vamos responder essas e outras perguntas, oferecendo um guia prático para quem precisa conviver com uma hérnia inguinal, seja aguardando cirurgia ou em vigilância ativa.
 
+![Hérnia inguinal]({{ site.baseurl }}/assets/images/posts/hernia-inguinal.webp "Hérnia inguinal")
+
 ## É possível viver com hérnia inguinal?
 
 Sim, **é possível viver com hérnia inguinal**, mas com ressalvas importantes:
@@ -26,7 +28,7 @@ Sim, **é possível viver com hérnia inguinal**, mas com ressalvas importantes:
 
 Embora seja possível viver com hérnia:
 
-- **70% dos pacientes** em vigilância ativa acabam operando em 7 anos
+- **70% dos pacientes** em vigilância ativa acabam operando em 7 anos [^fitzgibbons-2013]
 - Hérnias tendem a **crescer progressivamente**
 - Sintomas podem **aparecer ou piorar** com o tempo
 - Há **risco contínuo** de complicações (embora baixo: < 1% ao ano)
@@ -39,6 +41,8 @@ Embora seja possível viver com hérnia:
 </div>
 
 ## O que uma pessoa com hérnia inguinal não pode fazer?
+
+![O que uma pessoa com hérnia inguinal não pode fazer]({{ site.baseurl }}/assets/images/posts/infografico-hernia-inguinal-nao-pode-fazer.webp "O que uma pessoa com hérnia inguinal não pode fazer")
 
 Certas atividades aumentam significativamente o risco de complicações e devem ser evitadas:
 
@@ -262,6 +266,8 @@ A saúde intestinal é crucial para quem tem hérnia inguinal:
 
 ## Trabalho: quando afastar e quando pode continuar
 
+![Quando se afastar e quando continuar no trabalho quando se tem hérnia inguinal]({{ site.baseurl }}/assets/images/posts/infografico-hernia-inguinal-trabalho.webp "Quando se afastar e quando continuar no trabalho quando se tem hérnia inguinal")
+
 A decisão depende do tipo de trabalho e características da hérnia:
 
 ### Trabalhos compatíveis (sem afastamento)
@@ -482,5 +488,9 @@ Conviver com hérnia inguinal é possível, mas requer **adaptações, cuidados 
 6. **Não adie cirurgia** sem justificativa, especialmente se há sintomas
 
 Lembre-se: [**dor intensa súbita, náuseas, vômitos ou impossibilidade de reduzir a hérnia são emergências médicas**]({% link _posts/2025-10-02-hernia-inguinal-perigos-complicacoes.md %}). Não hesite em procurar atendimento.
+
+## Referências
+
+[^fitzgibbons-2013]: Fitzgibbons RJ Jr et al. _Long-term results of a randomized controlled trial of a nonoperative strategy (watchful waiting) for men with minimally symptomatic inguinal hernias._ **Annals of Surgery, 2013**; 258(3):508–515.
 
 Se você está convivendo com hérnia inguinal, agende consultas regulares para acompanhamento e reavaliação. E se a cirurgia está indicada, não adie sem necessidade — operar de forma eletiva é muito mais seguro do que aguardar uma complicação.

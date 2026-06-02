@@ -15,7 +15,7 @@ A hérnia inguinal ocorre quando uma porção de gordura ou do intestino **protr
 
 O resultado visível é uma **protuberância na virilha** que costuma aparecer ao ficar de pé, tossir ou fazer esforço, e tende a desaparecer ao deitar.
 
-É a hérnia mais frequente na cirurgia geral. Estima-se que **27% dos homens e 3% das mulheres** desenvolvem hérnia inguinal ao longo da vida, e mais de 20 milhões de correções cirúrgicas são realizadas no mundo a cada ano.
+É a hérnia mais frequente na cirurgia geral. Estima-se que **27% dos homens e 3% das mulheres** desenvolvem hérnia inguinal ao longo da vida, e mais de 20 milhões de correções cirúrgicas são realizadas no mundo a cada ano. [^ruhl-2007][^selmani-2022]
 
 ### Hérnia inguinal direta e indireta
 
@@ -61,11 +61,11 @@ Na maior parte dos casos, **não imediatamente**. Muitas pessoas convivem com h�
 
 **Encarceramento**: o conteúdo herniário fica preso fora da cavidade abdominal e não consegue mais retornar ao lugar. Causa dor intensa e inchaço súbito na virilha.
 
-**Estrangulamento**: o suprimento de sangue para o trecho preso é interrompido. É uma emergência cirúrgica — pode levar à necrose intestinal e, sem tratamento rápido, a consequências graves.
+**Estrangulamento**: o suprimento de sangue para o conteúdo preso é interrompido. É uma emergência cirúrgica — pode levar à necrose intestinal e, sem tratamento rápido, a consequências graves.
 
 Os sinais de alerta que exigem atendimento de emergência são:
 
-- Hérnia que ficou presa e não volta ao lugar ao deitar
+- Hérnia que não volta ao lugar ao deitar (hérnia encarcerada)
 - Dor súbita e intensa na região da hérnia
 - Endurecimento e vermelhidão no local da protuberância
 - Náuseas, vômitos ou febre
@@ -78,7 +78,7 @@ A resposta direta: **não**. A hérnia inguinal é um defeito anatômico — uma
 
 O que existe são estratégias de **manejo temporário** dos sintomas:
 
-- **Vigilância ativa**: acompanhar sem operar é uma opção válida apenas para hérnias assintomáticas em homens com baixo risco cirúrgico. Estudos mostram que cerca de 70% desses pacientes acabam precisando de cirurgia nos 7 anos seguintes.
+- **Vigilância ativa**: acompanhar sem operar é uma opção válida apenas para hérnias assintomáticas, porém é **fundamental a avaliação e orientação do cirurgião**. Estudos mostram que cerca de 70% desses pacientes acabam precisando de cirurgia nos 7 anos seguintes.[^fitzgibbons-2013]
 - **Cinta ou funda**: reduz o desconforto momentaneamente, mas não trata a causa nem impede que a hérnia cresça.
 - **Medicamentos**: analgésicos e anti-inflamatórios aliviam a dor, mas não corrigem o defeito.
 
@@ -126,3 +126,9 @@ A hérnia inguinal tem tratamento definitivo, com alta taxa de sucesso e baixo r
   cta_label="Agendar consulta"
   location="hernia-inguinal-hub-post"
 %}
+
+## Referências
+
+[^ruhl-2007]: Ruhl CE, Everhart JE. _Risk factors for inguinal hernia among adults in the US population._ **American Journal of Epidemiology, 2007**; 165(10):1154–1161.
+[^selmani-2022]: Selmani R et al. _Worldwide magnitude of inguinal hernia: systematic review and meta-analysis of population-based studies._ **PLOS ONE, 2022**; PMC9706054.
+[^fitzgibbons-2013]: Fitzgibbons RJ Jr et al. _Long-term results of a randomized controlled trial of a nonoperative strategy (watchful waiting) for men with minimally symptomatic inguinal hernias._ **Annals of Surgery, 2013**; 258(3):508–515.

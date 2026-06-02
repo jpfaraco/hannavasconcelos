@@ -14,6 +14,8 @@ Uma das principais preocupações de quem precisa fazer [a cirurgia de retirada 
 
 A vesícula biliar é um órgão de armazenamento, não de produção. Sua função principal é **armazenar e concentrar a bile** produzida pelo fígado entre as refeições, liberando-a no intestino quando você se alimenta, especialmente após refeições gordurosas.
 
+![Anatomia do fígado, estômago, vesícula, pâncreas e duodeno]({{ site.baseurl }}/assets/images/posts/vesicula.webp "Anatomia do fígado, estômago, vesícula, pâncreas e duodeno")
+
 ### O que acontece após a retirada?
 
 Quando a vesícula é removida, a bile continua sendo produzida normalmente pelo fígado, mas em vez de ser armazenada, **ela flui continuamente em pequenas quantidades diretamente para o intestino** através do ducto biliar.
@@ -91,7 +93,7 @@ Após o período de adaptação inicial (primeiros 3 a 6 meses), a maioria das p
 
 Estudos científicos mostram que:
 
-- **90% dos pacientes** relatam melhora na qualidade de vida após a cirurgia
+- **90% dos pacientes** relatam melhora na qualidade de vida após a cirurgia [^srivastava-2011]
 - A eliminação das cólicas biliares e do medo de novas crises traz alívio significativo
 - A maioria retorna às atividades sem limitações
 - Não há impacto negativo na expectativa de vida
@@ -102,7 +104,7 @@ Estudos científicos mostram que:
 
 ### O que dizem os estudos?
 
-Estudos de longo prazo (acompanhamento de décadas) mostram que:
+Estudos de longo prazo (acompanhamento de décadas) mostram que: [^emilsson-2025]
 
 - A expectativa de vida de quem retirou a vesícula é **igual à da população geral**
 - Não há aumento de mortalidade associado à ausência da vesícula
@@ -123,7 +125,7 @@ Não necessariamente. Esta é outra dúvida muito comum, mas os estudos mostram 
 
 ### O que dizem as pesquisas?
 
-- **Ganho de peso**: alguns estudos observam que cerca de 20% a 30% dos pacientes ganham peso após a cirurgia
+- **Ganho de peso**: alguns estudos observam que cerca de 20% a 30% dos pacientes ganham peso após a cirurgia [^colditz-1999]
 - **Causa**: não é a ausência da vesícula em si, mas sim a **melhora dos sintomas** e consequente aumento do apetite e da ingestão alimentar
 - **Emagrecimento**: é possível emagrecer normalmente após a cirurgia de vesícula
 
@@ -350,3 +352,11 @@ Os benefícios da cirurgia — eliminação das cólicas biliares dolorosas, pre
 Lembre-se: cada pessoa é única e pode ter uma experiência diferente. O acompanhamento médico adequado e a atenção aos sinais do seu corpo são fundamentais para garantir uma adaptação tranquila e uma vida saudável sem a vesícula.
 
 Se você ainda está em dúvida sobre fazer a cirurgia, leia sobre [os riscos e a segurança do procedimento]({% link _posts/2025-10-13-cirurgia-vesicula-riscos-seguranca.md %}) e [reconheça os sintomas de pedras na vesícula]({% link _posts/2025-10-05-sintomas-pedras-vesicula.md %}). Se você tem dúvidas sobre como será sua vida após a cirurgia ou precisa de orientações personalizadas para seu caso específico, agende uma consulta para receber todas as informações e suporte necessários.
+
+## Referências
+
+[^srivastava-2011]: Srivastava A et al. _Health-related quality of life outcomes after cholecystectomy._ **World Journal of Gastroenterology, 2011**; 17(45):4945–4953.
+
+[^emilsson-2025]: Emilsson L, Joshi AD, Ludvigsson JF. _Long-term mortality after cholecystectomy in a nationwide cohort of Swedish individuals between 1969 and 2016._ **Clinical Gastroenterology and Hepatology, 2025**. PMID: 40354909.
+
+[^colditz-1999]: Colditz GA et al. _Long-term weight patterns and risk for cholecystectomy in women._ **Annals of Internal Medicine, 1999**; 130(6):471–477.
