@@ -70,6 +70,8 @@ Uma pequena porcentagem de pacientes pode apresentar:
 
 ## Como é a vida de quem não tem vesícula?
 
+![Como é a vida de quem retirou a vesícula]({{ site.baseurl }}/assets/images/posts/infografico-vida-sem-vesicula.webp "Como é a vida de quem retirou a vesícula")
+
 A grande maioria das pessoas que retiram a vesícula leva uma vida completamente normal. Estudos de qualidade de vida demonstram que:
 
 ### Vida cotidiana
