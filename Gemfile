@@ -40,4 +40,4 @@ gem 'liquid', '~> 4.0', '>= 4.0.4'
 
 gem 'jekyll-sitemap'
 
-gem "json", ">= 2.19.2"
+gem "json", ">= 2.19.9"
